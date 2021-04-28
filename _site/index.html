@@ -13,49 +13,26 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
         rel="stylesheet">
 
+  <!-- Vendor CSS -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
   <body>
-    <!-- NAV -->
-<!--<nav class="navbar navbar-expand-md navbar-light py-4">-->
-<!--  <div class="container">-->
-<!--    <a href="/acmutsa.github.io/" class="navbar-brand">-->
-<!--      <h3 class="d-inline align-middle pl-3 text-primary">Jekyll and BS4</h3>-->
-<!--    </a>-->
-<!--    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">-->
-<!--      <span class="navbar-toggler-icon"></span>-->
-<!--    </button>-->
-<!--    <div class="collapse navbar-collapse" id="navbarNav">-->
-<!--      <ul class="navbar-nav">-->
-<!--        <li class="nav-item">-->
-<!--          <a href="/acmutsa.github.io/" class="nav-link">Home</a>-->
-<!--        </li>-->
-<!--        <li class="nav-item">-->
-<!--          <a href="/acmutsa.github.io/archive/" class="nav-link">Archive</a>-->
-<!--        </li>-->
-<!--        <li class="nav-item">-->
-<!--          <a href="/acmutsa.github.io/about/" class="nav-link">About</a>-->
-<!--        </li>-->
-<!--      </ul>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</nav>-->
-
-<header id="header" class="fixed-top">
+    <header id="header" class="fixed-top">
   <div class="container d-flex">
 
     <div class="logo mr-auto">
       <!-- text logo top left corner-->
       <!-- <h1 class="text-light"><a href="index.html">ACM</a></h1> -->
       <!-- image logo top left corner-->
-      <a href="/acmutsa.github.io"><img src="/acmutsa.github.io/assets/img/logos/logo.png" alt="" class="img-fluid"></a>
+      <a href="/acmutsa.github.io/"><img src="/acmutsa.github.io/assets/img/logos/logo.png" alt="" class="img-fluid"></a>
     </div>
 
     <nav class="nav-menu d-none d-lg-block">
       <!-- can add up to two layers of drop downs [class="drop-down"] -->
       <ul>
-        <li class="active"><a href="#hero">Home</a></li>
-        <li><a href="#about">About Us</a></li>
+        <li class="active"><a href="/acmutsa.github.io/">Home</a></li>
+        <li><a href="#about-section">About</a></li>
         <li class="drop-down"><a href="">Groups</a>
           <ul>
             <li><a href="groups/acm-w.html">ACM-W</a></li>
@@ -71,9 +48,9 @@
         <li><a href="#faq">F.A.Q.</a></li>
         <li><a href="#contact">Contact Us</a></li>
       </ul>
-    </nav><!-- .nav-menu -->
+    </nav>
   </div>
-</header><!-- End Header -->
+</header>
     <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="container text-center text-md-left">
@@ -81,40 +58,85 @@
         <h2>at UTSA</h2>
         <a href="#about" class="btn-get-started">Learn More</a>
     </div>
-</section><!-- End Hero -->
+</section>
 
-<!--&lt;!&ndash; ======= About Section ======= &ndash;&gt;-->
-<!--<section id="about" class="about">-->
-<!--    <div class="container">-->
+<main id="main">
 
-<!--        <div class="row">-->
-<!--            <div class="col-xl-6 col-lg-7" data-aos="fade-right">-->
-<!--                <img src="assets/img/about-img.jpg" class="img-fluid" alt="">-->
-<!--            </div>-->
-<!--            <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">-->
-<!--                <h3 data-aos="fade-up">About Us</h3>-->
-<!--                <p data-aos="fade-up">-->
-<!--                    The Association for Computing Machinery at UTSA is dedicated to giving members and students the-->
-<!--                    opportunity to gain experience, network, socialize, learn, and grow outside of the classroom in-->
-<!--                    all fields of technology and computing.-->
-<!--                </p>-->
-<!--                <div class="icon-box" data-aos="fade-up">-->
-<!--                    <i class='bx bx-info-circle bx-tada'></i>-->
-<!--                    <h4>Organization</h4>-->
-<!--                    <p>Our chapter is organized to serve students for academic, professional, and social purposes at-->
-<!--                        UTSA. The Chapter shall be involved with and conduct activities that are included below.</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>&lt;!&ndash; End About Section &ndash;&gt;-->
-    <footer class="py-5">
-  <hr>
-  <div class="container text-center text-info">
-    <div class="row">
-      <div class="col">
-        
-          <div class="social-links">
+    <!-- ======= About Section ======= -->
+    ## About Section ##
+    <section id="about" class="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xl-6 col-lg-7" data-aos="fade-right">
+                    <img src="assets/img/about-img.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
+                    <h3 data-aos="fade-up">About Us</h3>
+                    <p data-aos="fade-up">
+                        The Association for Computing Machinery at UTSA is dedicated to giving members and students the
+                        opportunity to gain experience, network, socialize, learn, and grow outside of the classroom in
+                        all fields of technology and computing.
+                    </p>
+                    <div class="icon-box" data-aos="fade-up">
+                        <i class='bx bx-info-circle bx-tada'></i>
+                        <h4>Organization</h4>
+                        <p>Our chapter is organized to serve students for academic, professional, and social purposes at
+                            UTSA. The Chapter shall be involved with and conduct activities that are included below.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Steps Section ======= -->
+    <section id="steps" class="steps section-bg">
+        <div class="container">
+
+            <div class="row no-gutters">
+
+                <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in">
+                    <h4>Engaging</h4>
+                    <p>students in stimulating computing activities</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in">
+                    <h4>Mentoring</h4>
+                    <p>students for academic and professional success</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in">
+                    <h4>Advancing</h4>
+                    <p>the art, science, engineering, and application of information technology</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in">
+                    <h4>Connecting</h4>
+                    <p>students with leaders in the computing field</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in">
+                    <h4>Encouraging</h4>
+                    <p>the pursuit of career opportunities in computing</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in">
+                    <h4>Promoting</h4>
+                    <p>the highest professional and ethical standards</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+</main>
+    <!--<footer class="py-5">-->
+<!--  <hr>-->
+<!--  <div class="container text-center text-info">-->
+<!--    <div class="row">-->
+<!--      <div class="col">-->
+<!--        -->
+<!--          <div class="social-links">
   <a target="_blank" href="https://github.com/UTSA-ACM">
     <i class="fab fa-github fa-2x"></i>
   </a>
@@ -125,81 +147,81 @@
     <i class="fab fa-twitter fa-2x"></i>
   </a>
 </div>
-
-        
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        All content copyright ACM UTSA &copy; 2021.
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        All rights reserved.
-      </div>
-    </div>
-  </div>
-</footer>
-
-<!--<footer id="footer">-->
-<!--  <div class="footer-top">-->
-<!--    <div class="container">-->
-<!--      <div class="row">-->
-
-<!--        <div class="col-lg-5 col-md-6 col-sm-12">-->
-<!--          <div class="footer-info">-->
-<!--            <h3>Association of Computing Machinery</h3>-->
-<!--            <p>-->
-<!--              1 UTSA Circle, San Antonio<br>-->
-<!--              TX 78249, USA<br><br>-->
-<!--              <strong>Email:</strong> team@acmutsa.org<br>-->
-<!--            </p>-->
-<!--            <div class="social-links mt-3">-->
-<!--              <a href="https://twitter.com/acm_utsa" class="twitter"><i class="bx bxl-twitter"></i></a>-->
-<!--              <a href="https://www.facebook.com/acmutsa/" class="facebook"><i class="bx bxl-facebook"></i></a>-->
-<!--              <a href="https://www.instagram.com/acm_utsa/" class="instagram"><i-->
-<!--                      class="bx bxl-instagram"></i></a>-->
-<!--              <a href="https://www.linkedin.com/company/acmutsa/" class="linkedin"><i-->
-<!--                      class="bx bxl-linkedin"></i></a>-->
-<!--              <a href="https://www.youtube.com/channel/UCBBBNJjoZmd84FCsGatUlOg"><i-->
-<!--                      class='bx bxl-youtube'></i></a>-->
-<!--              <a href="https://utsa.campuslabs.com/engage/organization/acm"><i class='bx bxs-school'></i></a>-->
-<!--              <a href="https://discord.gg/Z3RnV4e"><i class='bx bxl-discord'></i></a>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-
-<!--        <div class="col-lg-2 col-md-2 footer-links d-none d-md-block">-->
-<!--          <h4>Useful Links</h4>-->
-<!--          <ul>-->
-<!--            <li><i class="bx bx-chevron-right"></i> <a href="information/join.html">Join ACM</a></li>-->
-<!--            <li><i class="bx bx-chevron-right"></i> <a href="index.html#hero" class="scrollto">Home</a></li>-->
-<!--            <li><i class="bx bx-chevron-right"></i> <a href="index.html#about" class="scrollto">About us</a></li>-->
-<!--            <li><i class="bx bx-chevron-right"></i> <a href="index.html#features" class="scrollto">Groups</a></li>-->
-<!--          </ul>-->
-<!--        </div>-->
-
-<!--        <div class="col-lg-2 col-md-2 footer-links d-none d-md-block">-->
-<!--          <h4>Our Groups</h4>-->
-<!--          <ul>-->
-<!--            <li><i class="bx bx-chevron-right"></i> <a href="groups/acm-w.html">ACM-W</a></li>-->
-<!--            <li><i class="bx bx-chevron-right"></i> <a href="groups/icpc.html">ACM-ICPC</a></li>-->
-<!--            <li><i class="bx bx-chevron-right"></i> <a href="groups/rowdyhacks.html">RowdyHacks</a></li>-->
-<!--            <li><i class="bx bx-chevron-right"></i> <a href="groups/rowdy-creators.html">Rowdy Creators</a></li>-->
-<!--          </ul>-->
-<!--        </div>-->
-
+-->
+<!--        -->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="row">-->
+<!--      <div class="col">-->
+<!--        All content copyright ACM UTSA &copy; 2021.-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="row">-->
+<!--      <div class="col">-->
+<!--        All rights reserved.-->
 <!--      </div>-->
 <!--    </div>-->
 <!--  </div>-->
+<!--</footer>-->
 
-<!--  <div class="container">-->
-<!--    <div class="copyright">-->
-<!--      &copy; Copyright <strong><span>Association of Computing Machinery</span></strong>. All Rights Reserved-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</footer>&lt;!&ndash; End Footer &ndash;&gt;-->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-5 col-md-6 col-sm-12">
+          <div class="footer-info">
+            <h3>Association of Computing Machinery</h3>
+            <p>
+              1 UTSA Circle, San Antonio<br>
+              TX 78249, USA<br><br>
+              <strong>Email:</strong> team@acmutsa.org<br>
+            </p>
+            <div class="social-links mt-3">
+              <a href="https://twitter.com/acm_utsa" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="https://www.facebook.com/acmutsa/" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/acm_utsa/" class="instagram"><i
+                      class="bx bxl-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/acmutsa/" class="linkedin"><i
+                      class="bx bxl-linkedin"></i></a>
+              <a href="https://www.youtube.com/ACMUTSA"><i
+                      class='bx bxl-youtube'></i></a>
+              <a href="https://utsa.campuslabs.com/engage/organization/acm"><i class='bx bxs-school'></i></a>
+              <a href="https://discord.gg/Z3RnV4e"><i class='bx bxl-discord'></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 footer-links d-none d-md-block">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="information/join.html">Join</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html#hero" class="scrollto">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html#about" class="scrollto">About us</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html#features" class="scrollto">Groups</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-2 footer-links d-none d-md-block">
+          <h4>Our Groups</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="groups/acm-w.html">ACM-W</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="groups/icpc.html">ACM-ICPC</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="groups/rowdyhacks.html">RowdyHacks</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="groups/rowdy-creators.html">Rowdy Creators</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Association of Computing Machinery</span></strong>. All Rights Reserved
+    </div>
+  </div>
+</footer>
 
 <!-- JS -->
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
@@ -207,6 +229,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="/acmutsa.github.io/assets/js/main.js"></script>
+<script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
 
 
   </body>
