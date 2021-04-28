@@ -4,7 +4,9 @@ email: team@acmutsa.org
 author:
 description: >-
   This is the ACM UTSA description
-url: https://acmutsa.org
+baseurl: /acmutsa.github.io
+url: http://acmutsa.github.io
+#root: /acmutsa.github.io
 
 # Build settings
 permalink: :title/
