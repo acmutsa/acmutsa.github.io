@@ -1,0 +1,33 @@
+I"Ë<h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<h4 id="heading-4">Heading 4</h4>
+
+<p>A <a href="#" target="_blank">link</a></p>
+
+<h5 id="terminal">Terminal</h5>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">A terminal <span class="nb">command</span></code></pre></figure>
+
+<h5 id="some-html">some html</h5>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container py5"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;p&gt;</span>Lorem ipsum<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<h5 id="some-javascript">some javascript</h5>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span><span class="p">);</span>
+<span class="p">});</span></code></pre></figure>
+
+<p>A code section without any header</p>
+<div class="no-select-button">
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;span&gt;</span>A small HTML snippet<span class="nt">&lt;/span&gt;</span></code></pre></figure>
+
+</div>
+
+<p>An image
+<img src="https://jekyllrb.com/img/logo-2x.png" class="img-fluid" /></p>
+:ET

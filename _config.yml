@@ -1,0 +1,21 @@
+# Site settings
+title:
+email: team@acmutsa.org
+author:
+description: >-
+  This is the ACM UTSA description
+url: https://acmutsa.org
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: css
+
+# Social icons
+show_social_icons: true
+github_username: UTSA-ACM
+twitter_username: acmutsa
+
+# plugins
+plugins: [jekyll-paginate]
+paginate: 3
