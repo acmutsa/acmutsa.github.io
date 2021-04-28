@@ -1,5 +1,10 @@
-$primary: #8d021f; // burgundy
+// Colors
+$primary: #f15a22; // UTSA Orange
+$secondary: #0C2340; // UTSA Blue
 $info: #7f7f7f; // grey
+
+// shortcuts
+$baseurl: "{{ site.baseurl }}";
 
 $code-heading-background: #dededc; // light grey
 $code-text-color: #b6b6b6; // off white

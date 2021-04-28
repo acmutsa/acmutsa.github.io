@@ -4,51 +4,76 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Jekyll and Bootstrap</title>
+  <title>ACM UTSA</title>
 
-  <link rel="stylesheet" href="css/main.css">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/acmutsa.github.io/css/main.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
 </head>
 
   <body>
     <!-- NAV -->
-<nav class="navbar navbar-expand-md navbar-light py-4">
-  <div class="container">
-    <a href="/" class="navbar-brand">
-      <h3 class="d-inline align-middle pl-3 text-primary">Jekyll and BS4</h3>
-    </a>
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a href="/" class="nav-link">Home</a>
+<!--<nav class="navbar navbar-expand-md navbar-light py-4">-->
+<!--  <div class="container">-->
+<!--    <a href="/acmutsa.github.io/" class="navbar-brand">-->
+<!--      <h3 class="d-inline align-middle pl-3 text-primary">Jekyll and BS4</h3>-->
+<!--    </a>-->
+<!--    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">-->
+<!--      <span class="navbar-toggler-icon"></span>-->
+<!--    </button>-->
+<!--    <div class="collapse navbar-collapse" id="navbarNav">-->
+<!--      <ul class="navbar-nav">-->
+<!--        <li class="nav-item">-->
+<!--          <a href="/acmutsa.github.io/" class="nav-link">Home</a>-->
+<!--        </li>-->
+<!--        <li class="nav-item">-->
+<!--          <a href="/acmutsa.github.io/archive/" class="nav-link">Archive</a>-->
+<!--        </li>-->
+<!--        <li class="nav-item">-->
+<!--          <a href="/acmutsa.github.io/about/" class="nav-link">About</a>-->
+<!--        </li>-->
+<!--      </ul>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</nav>-->
+
+<header id="header" class="fixed-top">
+  <div class="container d-flex">
+
+    <div class="logo mr-auto">
+      <!-- text logo top left corner-->
+      <!-- <h1 class="text-light"><a href="index.html">ACM</a></h1> -->
+      <!-- image logo top left corner-->
+      <a href="/acmutsa.github.io"><img src="/acmutsa.github.io/assets/img/logos/logo.png" alt="" class="img-fluid"></a>
+    </div>
+
+    <nav class="nav-menu d-none d-lg-block">
+      <!-- can add up to two layers of drop downs [class="drop-down"] -->
+      <ul>
+        <li class="active"><a href="#hero">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li class="drop-down"><a href="">Groups</a>
+          <ul>
+            <li><a href="groups/acm-w.html">ACM-W</a></li>
+            <li><a href="groups/icpc.html">ACM-ICPC</a></li>
+            <li><a href="groups/rowdyhacks.html">RowdyHacks</a></li>
+            <li><a href="groups/rowdy-creators.html">Rowdy Creators</a></li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a href="/archive/" class="nav-link">Archive</a>
-        </li>
-        <li class="nav-item">
-          <a href="/about/" class="nav-link">About</a>
-        </li>
+        <li><a href="information/join.html">Join</a></li>
+        <li><a href="information/donate.html">Donate</a></li>
+        <li><a href="#calendar">Calendar</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#faq">F.A.Q.</a></li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
-    </div>
+    </nav><!-- .nav-menu -->
   </div>
-</nav>
-
-    <section id="banner" class="py-5 d-none d-sm-block">
-  <div class="primary-overlay text-white">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 text-center">
-          <h1 class="display-3 pt-4">
-            Jekyll with Bootstrap
-          </h1>
-      </div>
-      <div class="col-md-6"></div>
-    </div>
-  </div>
-</section>
-
+</header><!-- End Header -->
     <section id="archive">
   <div class="container py-3">
     <div class="row">
@@ -58,27 +83,27 @@
           
             <li>
               <span>Apr 01, 2018</span> -
-              <a href="/a-sample-post-5/">A sample post with many elements</a>
+              <a href="/acmutsa.github.io/a-sample-post-5/">A sample post with many elements</a>
             </li>
           
             <li>
               <span>Mar 01, 2018</span> -
-              <a href="/a-sample-post-4/">A Sample Post</a>
+              <a href="/acmutsa.github.io/a-sample-post-4/">A Sample Post</a>
             </li>
           
             <li>
               <span>Feb 01, 2018</span> -
-              <a href="/a-sample-post-3/">A Sample Post</a>
+              <a href="/acmutsa.github.io/a-sample-post-3/">A Sample Post</a>
             </li>
           
             <li>
               <span>Jan 15, 2018</span> -
-              <a href="/a-sample-post-2/">A Sample Post</a>
+              <a href="/acmutsa.github.io/a-sample-post-2/">A Sample Post</a>
             </li>
           
             <li>
               <span>Jan 01, 2018</span> -
-              <a href="/a-sample-post-1/">A Sample Post</a>
+              <a href="/acmutsa.github.io/a-sample-post-1/">A Sample Post</a>
             </li>
           
         </ul>
@@ -111,7 +136,7 @@
     </div>
     <div class="row">
       <div class="col">
-        All content copyright Your Name &copy; 2021.
+        All content copyright ACM UTSA &copy; 2021.
       </div>
     </div>
     <div class="row">
@@ -122,14 +147,72 @@
   </div>
 </footer>
 
+<!--<footer id="footer">-->
+<!--  <div class="footer-top">-->
+<!--    <div class="container">-->
+<!--      <div class="row">-->
+
+<!--        <div class="col-lg-5 col-md-6 col-sm-12">-->
+<!--          <div class="footer-info">-->
+<!--            <h3>Association of Computing Machinery</h3>-->
+<!--            <p>-->
+<!--              1 UTSA Circle, San Antonio<br>-->
+<!--              TX 78249, USA<br><br>-->
+<!--              <strong>Email:</strong> team@acmutsa.org<br>-->
+<!--            </p>-->
+<!--            <div class="social-links mt-3">-->
+<!--              <a href="https://twitter.com/acm_utsa" class="twitter"><i class="bx bxl-twitter"></i></a>-->
+<!--              <a href="https://www.facebook.com/acmutsa/" class="facebook"><i class="bx bxl-facebook"></i></a>-->
+<!--              <a href="https://www.instagram.com/acm_utsa/" class="instagram"><i-->
+<!--                      class="bx bxl-instagram"></i></a>-->
+<!--              <a href="https://www.linkedin.com/company/acmutsa/" class="linkedin"><i-->
+<!--                      class="bx bxl-linkedin"></i></a>-->
+<!--              <a href="https://www.youtube.com/channel/UCBBBNJjoZmd84FCsGatUlOg"><i-->
+<!--                      class='bx bxl-youtube'></i></a>-->
+<!--              <a href="https://utsa.campuslabs.com/engage/organization/acm"><i class='bx bxs-school'></i></a>-->
+<!--              <a href="https://discord.gg/Z3RnV4e"><i class='bx bxl-discord'></i></a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="col-lg-2 col-md-2 footer-links d-none d-md-block">-->
+<!--          <h4>Useful Links</h4>-->
+<!--          <ul>-->
+<!--            <li><i class="bx bx-chevron-right"></i> <a href="information/join.html">Join ACM</a></li>-->
+<!--            <li><i class="bx bx-chevron-right"></i> <a href="index.html#hero" class="scrollto">Home</a></li>-->
+<!--            <li><i class="bx bx-chevron-right"></i> <a href="index.html#about" class="scrollto">About us</a></li>-->
+<!--            <li><i class="bx bx-chevron-right"></i> <a href="index.html#features" class="scrollto">Groups</a></li>-->
+<!--          </ul>-->
+<!--        </div>-->
+
+<!--        <div class="col-lg-2 col-md-2 footer-links d-none d-md-block">-->
+<!--          <h4>Our Groups</h4>-->
+<!--          <ul>-->
+<!--            <li><i class="bx bx-chevron-right"></i> <a href="groups/acm-w.html">ACM-W</a></li>-->
+<!--            <li><i class="bx bx-chevron-right"></i> <a href="groups/icpc.html">ACM-ICPC</a></li>-->
+<!--            <li><i class="bx bx-chevron-right"></i> <a href="groups/rowdyhacks.html">RowdyHacks</a></li>-->
+<!--            <li><i class="bx bx-chevron-right"></i> <a href="groups/rowdy-creators.html">Rowdy Creators</a></li>-->
+<!--          </ul>-->
+<!--        </div>-->
+
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--  <div class="container">-->
+<!--    <div class="copyright">-->
+<!--      &copy; Copyright <strong><span>Association of Computing Machinery</span></strong>. All Rights Reserved-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</footer>&lt;!&ndash; End Footer &ndash;&gt;-->
+
 <!-- JS -->
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="/acmutsa.github.io/assets/js/main.js"></script>
 
-<script src="/js/clipboard.min.js"></script>
-<script src="/js/codeselect.js"></script>
 
   </body>
 </html>
