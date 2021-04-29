@@ -1,0 +1,35 @@
+---
+layout: calendar
+---
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+            themeSystem: 'bootstrap',
+            initialView: 'dayGridMonth',
+            // plugins: [ googleCalendarPlugin ],
+            // googleCalendarApiKey: 'AIzaSyAVyY-1pmjLTtcdo_lwZEVv9qnucy04T7o',
+            // events: {
+            //     googleCalendarId: 'council@acmutsa.org',
+            //     className: 'acm-event' // an option!
+            // }
+            // height: "auto"
+        });
+        calendar.render();
+        // calendar.setOption('height', 700);
+    });
+</script>
+
+<style>
+
+</style>
+
+<body>
+    {% include navbar.html %}
+    <div id='calendar'></div>
+    {% include footer.html %}
+    <script>
+        AOS.init();
+    </script>
+</body>
