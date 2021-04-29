@@ -1,10 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+---
+layout: default
+---
 
-</body>
-</html>
+<!-- Hero Section -->
+{% assign mainTitle="ACM ICPC" %}
+{% assign subTitle="International Collegiate Programming Contest" %}
+{% include hero-section.html %}
+
+<main id="main">
+    {% include icpc_content.html %}
+</main>
