@@ -1,7 +1,5 @@
-# jekyll-bootstrap-4-starter
+# ACM UTSA
 
-A [Jekyll](https://jekyllrb.com/) and [Bootstrap 4](https://getbootstrap.com/) starter template.
+:octocat: *We are organized to serve students for academic, professional, and social purposes at UTSA*
 
-Over-ride Bootstrap variables via the */css/custom_variables.scss* file.
-
-For more information see: [https://experimentingwithcode.com/creating-a-jekyll-blog-with-bootstrap-4-and-sass-part-1/](https://experimentingwithcode.com/creating-a-jekyll-blog-with-bootstrap-4-and-sass-part-1/)
+*Contact Us:* [team@acmutsa.org](mailto:team@acmutsa.org)
