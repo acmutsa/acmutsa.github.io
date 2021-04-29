@@ -2409,6 +2409,176 @@ section { padding: 60px 0; overflow: hidden; }
 .steps .content-item p { color: white; font-size: 15px; margin: 0; padding: 0; }
 
 @media (max-width: 768px) { .steps .content-item { padding: 40px 0; } }
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features .nav-tabs { border: 0; }
+
+.features .nav-link { border: 0; padding: 20px; transition: 0.3s; color: #21413c; }
+
+.features .nav-link:hover { color: #f15a22; }
+
+.features .nav-link h4 { font-size: 18px; font-weight: 600; }
+
+.features .nav-link p { font-size: 14px; margin-bottom: 0; }
+
+.features .nav-link.active { box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.12); }
+
+.features .nav-link.active h4 { color: #f15a22; }
+
+.features .tab-pane.active { -webkit-animation: slide-down 0.5s ease-out; animation: slide-down 0.5s ease-out; }
+
+@-webkit-keyframes slide-down { 0% { opacity: 0; }
+  100% { opacity: 1; } }
+@keyframes slide-down { 0% { opacity: 0; }
+  100% { opacity: 1; } }
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box { padding: 30px; position: relative; overflow: hidden; margin: 0; background: #fff; transition: all 0.3s ease-in-out; border-radius: 15px; text-align: center; border-bottom: 3px solid #fff; }
+
+.services .icon-box:hover { box-shadow: 0 2px 29px 0 rgba(37, 37, 37, 0.1); }
+
+.services .icon i { font-size: 48px; line-height: 1; margin-bottom: 15px; }
+
+.services .title { font-weight: 700; margin-bottom: 15px; font-size: 18px; }
+
+.services .title a { color: #111; }
+
+.services .description { font-size: 15px; line-height: 28px; margin-bottom: 0; }
+
+.services .icon-box-pink .icon i { color: #ff689b; }
+
+.services .icon-box-cyan .icon i { color: #3fcdc7; }
+
+.services .icon-box-green .icon i { color: #41cf2e; }
+
+.services .icon-box-blue .icon i { color: #2282ff; }
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+#team { min-height: 70vh; }
+
+.team .member { text-align: center; margin-bottom: 20px; background: #343a40; position: relative; overflow: hidden; }
+
+.team .member .member-info { opacity: 0; position: absolute; bottom: 0; top: 0; left: 0; right: 0; transition: 0.2s; }
+
+.team .member .member-info-content { position: absolute; left: 50px; right: 0; bottom: 0; transition: bottom 0.4s; }
+
+.team .member .member-info-content h4 { font-weight: 700; margin-bottom: 2px; font-size: 18px; color: #fff; }
+
+.team .member .member-info-content span { font-style: italic; display: block; font-size: 13px; color: #fff; }
+
+.team .member .social { position: absolute; left: -50px; top: 0; bottom: 0; width: 50px; transition: left ease-in-out 0.3s; background: rgba(0, 0, 0, 0.5); text-align: center; }
+
+.team .member .social a { transition: color 0.3s; display: block; color: #fff; margin-top: 15px; }
+
+.team .member .social a:hover { color: #f15a22; }
+
+.team .member .social i { font-size: 18px; margin: 0 2px; }
+
+.team .member:hover .member-info { background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 212, 255, 0) 100%); opacity: 1; transition: 0.4s; }
+
+.team .member:hover .member-info-content { bottom: 30px; transition: bottom 0.4s; }
+
+.team .member:hover .social { left: 0; transition: left ease-in-out 0.3s; }
+
+.team #team-flters { padding: 0; margin: 0 auto 35px auto; list-style: none; text-align: center; background: #fff; box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); border-radius: 50px; padding: 8px 20px; }
+
+.team #team-flters a { cursor: pointer; display: inline-block; padding: 10px 15px 8px 15px; font-size: 14px; font-weight: 600; line-height: 1; text-transform: uppercase; color: #444444; margin-bottom: 5px; transition: all 0.3s ease-in-out; }
+
+.team #team-flters a:hover, .team #team-flters a.filter-active { color: #f15a22; }
+
+.team #team-flters a:last-child { margin-right: 0; }
+
+.is-animated { animation: .15s zoom-in; transition: transform .15s ease; }
+
+@keyframes zoom-in { 0% { transform: scale(0.1); }
+  100% { transform: none; } }
+/*--------------------------------------------------------------
+# F.A.Q
+--------------------------------------------------------------*/
+.faq .faq-list { padding: 0 100px; }
+
+.faq .faq-list ul { padding: 0; list-style: none; }
+
+.faq .faq-list li + li { margin-top: 15px; }
+
+.faq .faq-list li { padding: 20px; background: #fff; border-radius: 4px; position: relative; }
+
+.faq .faq-list a { display: block; position: relative; font-family: "Poppins", sans-serif; font-size: 16px; line-height: 24px; font-weight: 500; padding: 0 30px; outline: none; }
+
+.faq .faq-list .icon-help { font-size: 24px; position: absolute; right: 0; left: 20px; color: #f15a22; }
+
+.faq .faq-list .icon-show, .faq .faq-list .icon-close { font-size: 24px; position: absolute; right: 0; top: 0; }
+
+.faq .faq-list p { margin-bottom: 0; padding: 10px 0 0 0; }
+
+.faq .faq-list .icon-show { display: none; }
+
+.faq .faq-list a.collapsed { color: #0c2340; }
+
+.faq .faq-list a.collapsed:hover { color: #f15a22; }
+
+.faq .faq-list a.collapsed .icon-show { display: inline-block; }
+
+.faq .faq-list a.collapsed .icon-close { display: none; }
+
+@media (max-width: 1200px) { .faq .faq-list { padding: 0; } }
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info { padding: 30px; width: 100%; background: #fff; box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); }
+
+.contact .info i { font-size: 20px; color: #0c2340; float: left; width: 44px; height: 44px; background: #e1f0ee; display: flex; justify-content: center; align-items: center; border-radius: 50px; transition: all 0.3s ease-in-out; }
+
+.contact .info h4 { padding: 0 0 0 60px; font-size: 22px; font-weight: 600; margin-bottom: 5px; color: #f15a22; }
+
+.contact .info p { padding: 0 0 0 60px; margin-bottom: 0; font-size: 14px; color: #0c2340; }
+
+.contact .info .email p { padding-top: 5px; }
+
+.contact .info .social-links { padding-left: 60px; }
+
+.contact .info .social-links a { font-size: 18px; display: inline-block; background: #333; color: #fff; line-height: 1; padding: 8px 0; border-radius: 50%; text-align: center; width: 36px; height: 36px; transition: 0.3s; margin-right: 10px; }
+
+.contact .info .social-links a:hover { background: #f15a22; color: #fff; }
+
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i { background: #f15a22; color: #fff; }
+
+.contact .php-email-form { width: 100%; padding: 30px; background: #fff; box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12); }
+
+.contact .php-email-form .form-group { padding-bottom: 8px; }
+
+.contact .php-email-form .validate { display: none; color: red; margin: 0 0 15px 0; font-weight: 400; font-size: 13px; }
+
+.contact .php-email-form .error-message { display: none; color: #fff; background: #ed3c0d; text-align: center; padding: 15px; font-weight: 600; }
+
+.contact .php-email-form .sent-message { display: none; color: #fff; background: #f15a22; text-align: center; padding: 15px; font-weight: 600; }
+
+.contact .php-email-form .loading { display: none; background: #fff; text-align: center; padding: 15px; }
+
+.contact .php-email-form .loading:before { content: ""; display: inline-block; border-radius: 50%; width: 24px; height: 24px; margin: 0 10px -6px 0; border: 3px solid #0c2340; border-top-color: #eee; -webkit-animation: animate-loading 1s linear infinite; animation: animate-loading 1s linear infinite; }
+
+.contact .php-email-form input, .contact .php-email-form textarea { border-radius: 0; box-shadow: none; font-size: 14px; }
+
+.contact .php-email-form input { height: 44px; }
+
+.contact .php-email-form textarea { padding: 10px 12px; }
+
+.contact .php-email-form button[type="submit"] { background: #f15a22; border: 0; padding: 10px 24px; color: #fff; transition: 0.4s; border-radius: 4px; }
+
+.contact .php-email-form button[type="submit"]:hover { background: #0c2340; }
+
+.contact .send-email button { background: #f15a22; border: 0; padding: 10px 24px; color: #fff; transition: 0.4s; border-radius: 4px; }
+
+.contact .send-email button:hover { background: #0c2340; }
+
+@-webkit-keyframes animate-loading { 0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); } }
+@keyframes animate-loading { 0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); } }
 /* ---------------------------------- Footer Section
 ----------------------------------- */
 #footer { background: black; padding: 0 0 30px 0; color: #fff; font-size: 14px; }
