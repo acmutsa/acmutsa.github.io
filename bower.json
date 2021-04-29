@@ -1,0 +1,20 @@
+{
+  "name": "acmtusa.github.io",
+  "homepage": "https://github.com/UTSA-ACM/acmutsa.github.io",
+  "authors": [
+    "Zaquariah Holland <zaquariah@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}
