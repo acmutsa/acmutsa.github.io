@@ -3,13 +3,9 @@ layout: default
 ---
 
 <!-- Hero Section -->
-<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="container text-center text-md-left">
-        <h1>The Association for Computing Machinery</h1>
-        <h2>at UTSA</h2>
-        <a href="#about" class="btn-get-started">Learn More</a>
-    </div>
-</section>
+{% assign mainTitle="The Association for Computing Machinery" %}
+{% assign subTitle="at UTSA" %}
+{% include hero-section.html %}
 
 <main id="main">
     {% include about-section.html %}
