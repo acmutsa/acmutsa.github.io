@@ -2623,16 +2623,41 @@ section { padding: 60px 0; overflow: hidden; }
 
 #footer .credits { padding-top: 10px; text-align: center; font-size: 13px; color: #fff; }
 
-#banner { position: relative; background: url("../img/banner.jpeg"); min-height: 250px; }
-#banner .primary-overlay { background: rgba(141, 2, 31, 0.8); position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+/*--------------------------------------------------------------
+# Video Formatting
+--------------------------------------------------------------*/
+#videoBG { position: fixed; z-index: -1; width: 100%; height: calc(100vh - 72px); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+
+.color-overlay { position: absolute; top: 0; left: 0; background-color: #f15a22; width: 100%; height: 100vh; opacity: .2; }
+
+@media (min-aspect-ratio: 16 / 9) { #videoBG { width: 100%; height: auto; } }
+@media (max-aspect-ratio: 16 / 9) { #videoBG { width: auto; height: 100%; } }
+@media (max-width: 767px) { #videoBG { display: none; }
+  .color-overlay { background-image: url("{{ site.baseurl }}/../../assets/video/rowdyhacks-video-thumbnail.jpg"); background-size: cover; opacity: 1; } }
+/*--------------------------------------------------------------
+# Test Box and Call To Action
+--------------------------------------------------------------*/
+#title { padding-top: 5vh; width: 100%; height: 60%; background-color: #0C2340; opacity: .7; background-size: cover; position: relative; }
+
+#statement { width: 100%; height: calc(100vh - 72px); background-size: cover; position: relative; margin-top: 72px; padding: 0; }
+
+#statement h1 { margin: 0 0 10px 0; font-size: 48px; font-weight: 700; line-height: 56px; color: #fff; }
+
+#statement h2 { color: rgba(255, 255, 255, 0.7); margin-bottom: 35px; font-size: 24px; }
+
+@media (min-width: 1024px) { #statement { background-attachment: fixed; } }
+@media (max-width: 992px) { #statement { margin-top: 60px; height: calc(100vh - 60px); } }
+@media (max-width: 768px) { #statement h1 { font-size: 28px; line-height: 36px; }
+  #statement h2 { font-size: 18px; line-height: 24px; margin-bottom: 30px; } }
+#statement .btn-get-started { font-family: "Raleway", sans-serif; text-transform: uppercase; font-weight: 500; font-size: 16px; letter-spacing: 1px; display: inline-block; padding: 8px 28px; border-radius: 4px; transition: 0.5s; border: 2px solid #fff; color: #fff; }
+
+#statement .btn-get-started:hover { background: #f15a22; }
 
 .social-links a { text-decoration: none; padding-right: 10px; }
 .social-links a:hover { color: #7f7f7f; cursor: pointer; }
 
 #posts a { text-decoration: none; }
 #posts a:hover { color: #7f7f7f; }
-
-#pager a.btn.disabled { color: #7f7f7f; }
 
 #post { /****************************** STYLES FOR DISPLAYING CODE *****************************/ }
 #post h1, #post h2, #post h3, #post h4 { color: #f15a22; padding-top: 10px; }
