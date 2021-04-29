@@ -2652,22 +2652,3 @@ section { padding: 60px 0; overflow: hidden; }
 #statement .btn-get-started { font-family: "Raleway", sans-serif; text-transform: uppercase; font-weight: 500; font-size: 16px; letter-spacing: 1px; display: inline-block; padding: 8px 28px; border-radius: 4px; transition: 0.5s; border: 2px solid #fff; color: #fff; }
 
 #statement .btn-get-started:hover { background: #f15a22; }
-
-.social-links a { text-decoration: none; padding-right: 10px; }
-.social-links a:hover { color: #7f7f7f; cursor: pointer; }
-
-#posts a { text-decoration: none; }
-#posts a:hover { color: #7f7f7f; }
-
-#post { /****************************** STYLES FOR DISPLAYING CODE *****************************/ }
-#post h1, #post h2, #post h3, #post h4 { color: #f15a22; padding-top: 10px; }
-#post img { display: block; margin-left: auto; margin-right: auto; box-shadow: 12px 12px 3px rgba(34, 25, 25, 0.4); -moz-box-shadow: 12px 12px 3px rgba(34, 25, 25, 0.4); -webkit-box-shadow: 12px 12px 3px rgba(34, 25, 25, 0.4); margin-top: 20px; margin-bottom: 40px; }
-#post h5 { background: none repeat scroll 0% 0% #dededc; font-size: 14px; font-weight: bold; padding: 10px 15px; margin-bottom: 0px; border-radius: 3px 3px 0px 0px; }
-#post .highlight pre { font-size: 18px; padding: 10px; }
-#post .highlight pre code { color: #b6b6b6; }
-#post .btn-copy-code { color: #212529; padding-right: 5px; float: right; background: #dededc; border: 0; font-size: 12px; margin-top: -30px; }
-#post .btn-copy-code:hover { cursor: pointer; color: #f15a22; }
-
-#archive a { text-decoration: none; border: none; }
-#archive a:hover { color: #7f7f7f; }
-#archive li { font-size: 18px; }
