@@ -2387,6 +2387,8 @@ section { padding: 60px 0; overflow: hidden; }
 
 .section-bg { background-color: #0C2340; opacity: 92%; }
 
+.section-bg-option-2 { background-color: antiquewhite; }
+
 .section-title { padding-top: 32px; padding-bottom: 40px; text-align: center; }
 
 .section-title h2 { font-size: 36px; font-weight: 300; margin-bottom: 20px; padding-bottom: 0; color: #f15a22; }
@@ -2397,11 +2399,13 @@ section { padding: 60px 0; overflow: hidden; }
 
 /* ---------------------------------- Hero Section
 ----------------------------------- */
-#hero { width: 100%; height: calc(100vh - 72px); background: url("{{ site.baseurl }}/../../assets/img/npb-building.jpg") center center; background-size: cover; position: relative; margin-top: 72px; padding: 0; }
+#hero { width: 100%; height: calc(100vh - 72px); background-size: cover; position: relative; margin-top: 72px; padding: 0; }
+
+#hero-bg { background: url("{{ site.baseurl }}/../../assets/img/npb-building.jpg") center center; background-size: cover; position: fixed; z-index: -1; width: 100%; height: calc(100vh - 72px); display: flex; align-items: center; justify-content: center; overflow: hidden; }
 
 #hero:before { content: ""; background: rgba(0, 0, 0, 0.4); position: absolute; bottom: 0; top: 0; left: 0; right: 0; }
 
-#hero .container { z-index: 2; }
+#hero .container { z-index: 1; }
 
 #hero h1 { margin: 0 0 10px 0; font-size: 48px; font-weight: 700; line-height: 56px; color: #fff; }
 

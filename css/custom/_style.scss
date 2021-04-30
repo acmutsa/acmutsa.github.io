@@ -302,12 +302,17 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
-  overflow: hidden;
+  overflow: hidden
 }
 
 .section-bg {
   background-color: $secondary;
   opacity: 92%;
+}
+
+.section-bg-option-2 {
+  background-color: antiquewhite;
+  //opacity: 92%;
 }
 
 .section-title {
@@ -339,11 +344,23 @@ section {
 #hero {
   width: 100%;
   height: calc(100vh - 72px);
-  background: url("#{$baseurl}/../../assets/img/npb-building.jpg") center center;
   background-size: cover;
   position: relative;
   margin-top: 72px;
   padding: 0;
+}
+
+#hero-bg {
+  background: url("#{$baseurl}/../../assets/img/npb-building.jpg") center center;
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: calc(100vh - 72px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 #hero:before {
@@ -357,7 +374,7 @@ section {
 }
 
 #hero .container {
-  z-index: 2;
+  z-index: 1;
 }
 
 #hero h1 {
@@ -503,7 +520,7 @@ section {
 }
 
 .features .nav-link.active h4 {
-  color: #f15a22;
+  color: $primary;
 }
 
 .features .tab-pane.active {
@@ -590,9 +607,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 #team {
-  //offset-position: top 72px;
   min-height: 70vh;
-  //height: calc(100vh - 72px);
 }
 
 .team .member {
