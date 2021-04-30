@@ -2336,8 +2336,6 @@ h1, h2, h3, h4, h5, h6 { font-family: "Raleway", sans-serif; }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a { color: #f15a22; }
 
-.nav-menu .drop-down > a:after { content: "\ea83"; font-family: IcoFont; padding-left: 5px; }
-
 .nav-menu .drop-down .drop-down ul { top: 0; left: calc(100% - 30px); }
 
 .nav-menu .drop-down .drop-down:hover > ul { opacity: 1; top: 0; left: 100%; }
