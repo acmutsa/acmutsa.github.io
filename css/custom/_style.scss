@@ -147,11 +147,12 @@ h1, h2, h3, h4, h5, h6 {
   color: $primary;
 }
 
-//.nav-menu .drop-down > a:after {
-//  content: "\ea99";
-//  font-family: IcoFont;
-//  padding-left: 5px;
-//}
+.nav-menu .drop-down > a:after {
+  //content: "\ea99";
+  content: "\ea83";
+  font-family: IcoFont;
+  padding-left: 5px;
+}
 
 .nav-menu .drop-down .drop-down ul {
   top: 0;
@@ -187,6 +188,115 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Mobile Navigation */
+.mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  line-height: 1;
+  cursor: pointer;
+  text-align: right;
+}
+
+.mobile-nav-toggle i {
+  color: #fff;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 55px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  z-index: 9999;
+  overflow-y: auto;
+  background: #fff;
+  transition: ease-in-out 0.2s;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+.mobile-nav * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mobile-nav a {
+  display: block;
+  position: relative;
+  color: #21413c;
+  padding: 10px 20px;
+  font-weight: 500;
+  outline: none;
+}
+
+.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+  color: #1bac91;
+  text-decoration: none;
+}
+
+.mobile-nav .drop-down > a:after {
+  //content: "\ea99";
+  content: "FIRST";
+  font-family: IcoFont;
+  padding-left: 10px;
+  position: absolute;
+  right: 15px;
+}
+
+.mobile-nav .active.drop-down > a:after {
+  //content: "\eaa1";
+  content: "TEST";
+}
+
+.mobile-nav .drop-down > a {
+  padding-right: 35px;
+}
+
+.mobile-nav .drop-down ul {
+  display: none;
+  overflow: hidden;
+}
+
+.mobile-nav .drop-down li {
+  padding-left: 20px;
+}
+
+.mobile-nav-overly {
+  width: 100%;
+  height: 100%;
+  z-index: 9997;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(16, 31, 29, 0.6);
+  overflow: hidden;
+  display: none;
+  transition: ease-in-out 0.2s;
+}
+
+.mobile-nav-active {
+  overflow: hidden;
+}
+
+.mobile-nav-active .mobile-nav {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-nav-active .mobile-nav-toggle i {
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -201,6 +311,7 @@ section {
 }
 
 .section-title {
+  padding-top: 72px;
   padding-bottom: 40px;
   text-align: center;
 }
@@ -479,7 +590,9 @@ section {
 # Team
 --------------------------------------------------------------*/
 #team {
+  //offset-position: top 72px;
   min-height: 70vh;
+  //height: calc(100vh - 72px);
 }
 
 .team .member {
