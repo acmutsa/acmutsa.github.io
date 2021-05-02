@@ -147,12 +147,11 @@ h1, h2, h3, h4, h5, h6 {
   color: $primary;
 }
 
-//.nav-menu .drop-down > a:after {
-//  //content: "\ea99";
-//  content: "\ea83";
-//  font-family: IcoFont;
-//  padding-left: 5px;
-//}
+.nav-menu .drop-down > a:after {
+  content: url('#{$baseurl}/../../assets/img/svg/arrow.svg');
+  font-family: IcoFont;
+  padding-left: 5px;
+}
 
 .nav-menu .drop-down .drop-down ul {
   top: 0;
@@ -170,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down .drop-down > a:after {
-  content: "\eaa0";
+  content: url('#{$baseurl}/../../assets/img/svg/arrow.svg');
   font-family: IcoFont;
   position: absolute;
   right: 15px;
@@ -245,8 +244,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav .drop-down > a:after {
-  //content: "\ea99";
-  content: "FIRST";
+  content: url('#{$baseurl}/../../assets/img/svg/arrow.svg');
   font-family: IcoFont;
   padding-left: 10px;
   position: absolute;
@@ -254,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav .active.drop-down > a:after {
-  //content: "\eaa1";
+  content: url('#{$baseurl}/../../assets/img/svg/arrow.svg');
   content: "TEST";
 }
 

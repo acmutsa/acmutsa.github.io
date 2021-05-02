@@ -2336,13 +2336,15 @@ h1, h2, h3, h4, h5, h6 { font-family: "Raleway", sans-serif; }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a { color: #f15a22; }
 
+.nav-menu .drop-down > a:after { content: url("{{ site.baseurl }}/../../assets/img/svg/arrow.svg"); font-family: IcoFont; padding-left: 5px; }
+
 .nav-menu .drop-down .drop-down ul { top: 0; left: calc(100% - 30px); }
 
 .nav-menu .drop-down .drop-down:hover > ul { opacity: 1; top: 0; left: 100%; }
 
 .nav-menu .drop-down .drop-down > a { padding-right: 35px; }
 
-.nav-menu .drop-down .drop-down > a:after { content: "\eaa0"; font-family: IcoFont; position: absolute; right: 15px; }
+.nav-menu .drop-down .drop-down > a:after { content: url("{{ site.baseurl }}/../../assets/img/svg/arrow.svg"); font-family: IcoFont; position: absolute; right: 15px; }
 
 @media (max-width: 1366px) { .nav-menu .drop-down .drop-down ul { left: -90%; }
   .nav-menu .drop-down .drop-down:hover > ul { left: -100%; }
@@ -2360,9 +2362,9 @@ h1, h2, h3, h4, h5, h6 { font-family: "Raleway", sans-serif; }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a { color: #1bac91; text-decoration: none; }
 
-.mobile-nav .drop-down > a:after { content: "FIRST"; font-family: IcoFont; padding-left: 10px; position: absolute; right: 15px; }
+.mobile-nav .drop-down > a:after { content: url("{{ site.baseurl }}/../../assets/img/svg/arrow.svg"); font-family: IcoFont; padding-left: 10px; position: absolute; right: 15px; }
 
-.mobile-nav .active.drop-down > a:after { content: "TEST"; }
+.mobile-nav .active.drop-down > a:after { content: url("{{ site.baseurl }}/../../assets/img/svg/arrow.svg"); content: "TEST"; }
 
 .mobile-nav .drop-down > a { padding-right: 35px; }
 
