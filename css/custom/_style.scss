@@ -148,9 +148,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down > a:after {
-  content: url('#{$baseurl}/../../assets/img/svg/arrow.svg');
-  font-family: IcoFont;
-  padding-left: 5px;
+  font-family: FontAwesome;
+  content: "\f107";
+  display: inline-block;
+  padding-left: 3px;
+  vertical-align: middle;
+  font-weight:900;
 }
 
 .nav-menu .drop-down .drop-down ul {
@@ -169,10 +172,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down .drop-down > a:after {
-  content: url('#{$baseurl}/../../assets/img/svg/arrow.svg');
-  font-family: IcoFont;
-  position: absolute;
-  right: 15px;
+  font-family: FontAwesome;
+  content: "\f107";
+  display: inline-block;
+  padding-left: 3px;
+  vertical-align: middle;
+  font-weight:900;
 }
 
 @media (max-width: 1366px) {
@@ -183,7 +188,12 @@ h1, h2, h3, h4, h5, h6 {
     left: -100%;
   }
   .nav-menu .drop-down .drop-down > a:after {
-    content: "\ea9d";
+    font-family: FontAwesome;
+    content: "\f107";
+    display: inline-block;
+    padding-left: 3px;
+    vertical-align: middle;
+    font-weight:900;
   }
 }
 
@@ -232,28 +242,30 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #21413c;
+  color: $secondary;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #1bac91;
+  color: $primary;
   text-decoration: none;
 }
 
 .mobile-nav .drop-down > a:after {
-  content: url('#{$baseurl}/../../assets/img/svg/arrow.svg');
-  font-family: IcoFont;
+  content: "\f078";
+  font-family: FontAwesome;
   padding-left: 10px;
   position: absolute;
   right: 15px;
+  font-weight:900;
 }
 
 .mobile-nav .active.drop-down > a:after {
-  content: url('#{$baseurl}/../../assets/img/svg/arrow.svg');
-  content: "TEST";
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight:900;
 }
 
 .mobile-nav .drop-down > a {
@@ -404,6 +416,31 @@ section {
 
 #hero .btn-get-started:hover {
   background: $primary;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 992px) {
+  #hero {
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
 }
 
 /*--------------------------------------------------------------

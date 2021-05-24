@@ -54,18 +54,19 @@
             class: 'mobile-nav d-lg-none'
         });
         $('body').append($mobile_nav);
-        $('body').prepend('<button type="button" class="mobile-nav-toggle d-lg-none"><i class="icofont-navigation-menu"></i></button>');
+        $('body').prepend('<button type="button" class="mobile-nav-toggle d-lg-none"><i class="fa fa-bars" aria-hidden="true" style="color: white;"></i></button>');
         $('body').append('<div class="mobile-nav-overly"></div>');
 
         $(document).on('click', '.mobile-nav-toggle', function (e) {
             $('body').toggleClass('mobile-nav-active');
-            $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
+            $('.mobile-nav-toggle svg').toggleClass('fa-bars fa-times');
             $('.mobile-nav-overly').toggle();
         });
 
         $(document).on('click', '.mobile-nav .drop-down > a', function (e) {
             e.preventDefault();
-            $(this).next().slideToggle(300);
+            // $(this).next().slideToggle(300);
+            $(this).next().toggle();
             $(this).parent().toggleClass('active');
         });
 
@@ -74,7 +75,7 @@
             if (!container.is(e.target) && container.has(e.target).length === 0) {
                 if ($('body').hasClass('mobile-nav-active')) {
                     $('body').removeClass('mobile-nav-active');
-                    $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
+                    $('.mobile-nav-toggle svg').toggleClass('fa-bars fa-times');
                     $('.mobile-nav-overly').fadeOut();
                 }
             }
@@ -138,30 +139,6 @@
         }
     });
 
-    // Porfolio isotope and filter
-    // $(window).on('load', function() {
-    //   var portfolioIsotope = $('.portfolio-container').isotope({
-    //     itemSelector: '.portfolio-item',
-    //     layoutMode: 'fitRows'
-    //   });
-
-    //   $('#portfolio-flters li').on('click', function() {
-    //     $("#portfolio-flters li").removeClass('filter-active');
-    //     $(this).addClass('filter-active');
-
-    //     portfolioIsotope.isotope({
-    //       filter: $(this).data('filter')
-    //     });
-    //   });
-
-    //   // Initiate venobox (lightbox feature used in portofilo)
-    //   $(document).ready(function() {
-    //     $('.venobox').venobox();
-    //   });
-    // });
-
-    // filtering team by overall titles
-    // https://www.sitepoint.com/building-a-filtering-component-with-css-animations-jquery/
     var $filters = $('.filter [data-filter]'),
         $boxes = $('.boxes [data-category]');
 
