@@ -2474,7 +2474,7 @@ section { padding: 60px 0; overflow: hidden; }
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box { padding: 30px; position: relative; overflow: hidden; margin: 0; background: #fff; transition: all 0.3s ease-in-out; border-radius: 15px; text-align: center; border-bottom: 3px solid #fff; }
+.services .icon-box { padding: 30px; position: relative; overflow: hidden; margin: 0; background: #fff; transition: all 0.3s ease-in-out; border-radius: 15px; text-align: center; border-bottom: 3px solid #fff; width: 100%; }
 
 .services .icon-box:hover { box-shadow: 0 2px 29px 0 rgba(37, 37, 37, 0.1); }
 
