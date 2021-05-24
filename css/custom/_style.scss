@@ -475,6 +475,14 @@ section {
   margin-left: 60px;
 }
 
+/* mobile functions */
+@media (max-width: 768px) {
+  /* changing about statement to being centered */
+  #about-statement {
+    text-align: center !important;
+  }
+}
+
 /*--------------------------------------------------------------
 # Steps
 --------------------------------------------------------------*/

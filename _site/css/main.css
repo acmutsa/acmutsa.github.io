@@ -2432,6 +2432,9 @@ section { padding: 60px 0; overflow: hidden; }
 
 .about .icon-box p { font-size: 15px; color: #848484; margin-left: 60px; }
 
+/* mobile functions */
+@media (max-width: 768px) { /* changing about statement to being centered */
+  #about-statement { text-align: center !important; } }
 /*--------------------------------------------------------------
 # Steps
 --------------------------------------------------------------*/
