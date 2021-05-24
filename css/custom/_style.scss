@@ -1188,3 +1188,9 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+@media (max-width: 768px) {
+  #footer {
+    text-align: center !important;
+  }
+}

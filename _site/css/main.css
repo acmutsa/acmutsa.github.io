@@ -2662,6 +2662,7 @@ section { padding: 60px 0; overflow: hidden; }
 
 #footer .credits { padding-top: 10px; text-align: center; font-size: 13px; color: #fff; }
 
+@media (max-width: 768px) { #footer { text-align: center !important; } }
 /*--------------------------------------------------------------
 # Video Formatting
 --------------------------------------------------------------*/

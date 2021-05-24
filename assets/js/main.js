@@ -65,7 +65,6 @@
 
         $(document).on('click', '.mobile-nav .drop-down > a', function (e) {
             e.preventDefault();
-            // $(this).next().slideToggle(300);
             $(this).next().toggle();
             $(this).parent().toggleClass('active');
         });
@@ -108,9 +107,9 @@
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
-            $('.back-to-top').fadeIn('slow');
+            $('.back-to-top').toggle();
         } else {
-            $('.back-to-top').fadeOut('slow');
+            $('.back-to-top').toggle();
         }
     });
 
