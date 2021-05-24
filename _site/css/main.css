@@ -2453,7 +2453,7 @@ section { padding: 60px 0; overflow: hidden; }
 --------------------------------------------------------------*/
 .features .nav-tabs { border: 0; }
 
-.features .nav-link { border: 0; padding: 20px; transition: 0.3s; color: #21413c; }
+.features .nav-link { border: 0; padding: 20px; transition: 0.3s; color: #0C2340; }
 
 .features .nav-link:hover { color: #f15a22; }
 

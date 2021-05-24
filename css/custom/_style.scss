@@ -532,11 +532,11 @@ section {
   border: 0;
   padding: 20px;
   transition: 0.3s;
-  color: #21413c;
+  color: $secondary;
 }
 
 .features .nav-link:hover {
-  color: #f15a22;
+  color: $primary;
 }
 
 .features .nav-link h4 {
