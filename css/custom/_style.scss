@@ -530,42 +530,42 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Features
+# Sub Orgs
 --------------------------------------------------------------*/
-.features .nav-tabs {
+.suborgs .nav-tabs {
   border: 0;
 }
 
-.features .nav-link {
+.suborgs .nav-link {
   border: 0;
   padding: 20px;
   transition: 0.3s;
   color: $secondary;
 }
 
-.features .nav-link:hover {
+.suborgs .nav-link:hover {
   color: $primary;
 }
 
-.features .nav-link h4 {
+.suborgs .nav-link h4 {
   font-size: 18px;
   font-weight: 600;
 }
 
-.features .nav-link p {
+.suborgs .nav-link p {
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.features .nav-link.active {
+.suborgs .nav-link.active {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.12);
 }
 
-.features .nav-link.active h4 {
+.suborgs .nav-link.active h4 {
   color: $primary;
 }
 
-.features .tab-pane.active {
+.suborgs .tab-pane.active {
   -webkit-animation: slide-down 0.5s ease-out;
   animation: slide-down 0.5s ease-out;
 }
@@ -589,7 +589,7 @@ section {
 }
 
 @media (max-width: 768px) {
-  .features .nav-link.active, .features .nav-link.active h4, .features .tab-pane.active {
+  .suborgs .nav-link.active, .suborgs .nav-link.active h4, .suborgs .tab-pane.active {
     box-shadow: 0 0 0;
     color: $secondary;
     background-color: $offWhite;
