@@ -1,9 +1,11 @@
 # Site settings
-title: Association of Computing Machinery
+title: ACM UTSA
 email: team@acmutsa.org
 author: Zaquariah Holland
 description: >-
-  This is the ACM UTSA description
+  "The Association for Computing Machinery at UTSA is dedicated to giving members and students the
+   opportunity to gain experience, network, socialize, learn, and grow outside of the classroom in
+   all fields of technology and computing."
 baseurl: /acmutsa.github.io
 url: https://acmutsa.github.io
 
