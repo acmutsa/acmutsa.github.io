@@ -588,6 +588,14 @@ section {
   }
 }
 
+@media (max-width: 768px) {
+  .features .nav-link.active, .features .nav-link.active h4, .features .tab-pane.active {
+    box-shadow: 0 0 0;
+    color: $secondary;
+    background-color: $offWhite;
+  }
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/

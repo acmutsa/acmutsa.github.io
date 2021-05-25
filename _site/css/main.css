@@ -2474,6 +2474,7 @@ section { padding: 60px 0; overflow: hidden; }
   100% { opacity: 1; } }
 @keyframes slide-down { 0% { opacity: 0; }
   100% { opacity: 1; } }
+@media (max-width: 768px) { .features .nav-link.active, .features .nav-link.active h4, .features .tab-pane.active { box-shadow: 0 0 0; color: #0C2340; background-color: antiquewhite; } }
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
