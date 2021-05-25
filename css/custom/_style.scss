@@ -557,6 +557,11 @@ section {
   margin-bottom: 0;
 }
 
+#tab-1, #tab-2, #tab-3, #tab-4 {
+  width: 75%;
+  height: auto;
+}
+
 .suborgs .nav-link.active {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.12);
 }

@@ -2464,6 +2464,8 @@ section { padding: 60px 0; overflow: hidden; }
 
 .suborgs .nav-link p { font-size: 14px; margin-bottom: 0; }
 
+#tab-1, #tab-2, #tab-3, #tab-4 { width: 75%; height: auto; }
+
 .suborgs .nav-link.active { box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.12); }
 
 .suborgs .nav-link.active h4 { color: #f15a22; }
