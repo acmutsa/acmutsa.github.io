@@ -2626,24 +2626,28 @@ section { padding: 60px 0; overflow: hidden; }
   100% { transform: rotate(360deg); } }
 /* ---------------------------------- Sponsorship Section
 ----------------------------------- */
-#Sponsorship { width: 100%; height: 100%; background-size: cover; position: relative; padding: 0; }
+#sponsorship { width: 100%; height: 100%; background-size: cover; position: relative; }
 
-#Sponsorship:before { content: ""; background: rgba(0, 0, 0, 0.2); position: absolute; bottom: 0; top: 0; left: 0; right: 0; }
+#sponsorship:before { content: ""; background: rgba(0, 0, 0, 0.4); position: absolute; bottom: 0; top: 0; left: 0; right: 0; }
 
-#Sponsorship .container { z-index: 1; }
+#sponsorship h2 { margin: 0 0 10px 0; font-size: 48px !important; font-weight: 700; line-height: 56px; color: #fff; }
 
-#Sponsorship h1 { margin: 0 0 10px 0; font-size: 48px; font-weight: 700; line-height: 56px; color: #fff; }
+#sponsorship .container { z-index: 1; }
 
-#Sponsorship h2 { color: rgba(255, 255, 255, 0.7); margin-bottom: 35px; font-size: 24px; }
+#sponsorship .row { padding: 15px; margin-bottom: 15px; }
 
-#Sponsorship .btn-get-started { font-family: "Raleway", sans-serif; text-transform: uppercase; font-weight: 500; font-size: 16px; letter-spacing: 1px; display: inline-block; padding: 8px 28px; border-radius: 4px; transition: 0.5s; border: 2px solid #fff; color: #fff; }
+#sponsorship .terabyte img, #sponsorship .gigabyte img, #sponsorship .megabyte img, #sponsorship .kilobyte img { background: antiquewhite; border-radius: 15px; }
 
-#Sponsorship .btn-get-started:hover { background: #f15a22; }
+#sponsorship .terabyte img { width: 100%; height: 200px; padding: 30px; }
 
-@media (min-width: 1024px) { #Sponsorship { background-attachment: fixed; } }
-@media (max-width: 992px) { #Sponsorship { margin-top: 60px; height: calc(100vh - 60px); } }
-@media (max-width: 768px) { #Sponsorship h1 { font-size: 28px; line-height: 36px; }
-  #Sponsorship h2 { font-size: 18px; line-height: 24px; margin-bottom: 30px; } }
+#sponsorship .gigabyte img { width: 100%; height: 150px; padding: 30px; }
+
+#sponsorship .megabyte img { width: 100%; height: 125px; padding: 20px; }
+
+#sponsorship .kilobyte img { width: 100%; height: 125px; padding: 10px; }
+
+@media (max-width: 992px) { #sponsorship { height: 100%; } }
+@media (max-width: 768px) { #sponsorship h2 { font-size: 28px; line-height: 36px; } }
 /* ---------------------------------- Footer Section
 ----------------------------------- */
 #footer { background: black; padding: 0 0 30px 0; color: #fff; font-size: 14px; }
