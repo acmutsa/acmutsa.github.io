@@ -1102,6 +1102,7 @@ section {
 #sponsorship .terabyte img, #sponsorship .gigabyte img, #sponsorship .megabyte img, #sponsorship .kilobyte img {
   background: $offWhite;
   border-radius: 15px;
+  margin-bottom: 15px;
 }
 
 #sponsorship .terabyte img {
@@ -1138,6 +1139,9 @@ section {
   #sponsorship h2 {
     font-size: 28px;
     line-height: 36px;
+  }
+  #sponsorship .terabyte img, #sponsorship .gigabyte img, #sponsorship .megabyte img, #sponsorship .kilobyte img {
+    margin-bottom: 0;
   }
 }
 

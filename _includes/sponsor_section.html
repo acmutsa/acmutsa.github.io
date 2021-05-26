@@ -5,6 +5,14 @@
             <h2>Our Sponsors</h2>
         </div>
 
+        <!--Liquid Template to add a sponsor-->
+        {% comment %}
+            {% assign imageSource="utsa_cos.png" %}
+            {% assign altText="UTSA College of Science" %}
+            {% include sponsor.html %}
+        {% endcomment %}
+
+
         <!--Terabyte Sponsors-->
         {% assign sponsorLevel="terabyte" %}
         <div class="row d-flex justify-content-center">
