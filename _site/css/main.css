@@ -2657,7 +2657,7 @@ section { padding: 60px 0; overflow: hidden; }
 
 #sponsor-perks .statement { font-size: 16px; border-bottom: 2px solid #f15a22; padding: 20px; text-align: left; }
 
-#sponsor-perks .perk { background-color: rgba(0, 0, 0, 0.3); border-left: 2px solid #f15a22; border-bottom: 2px solid #f15a22; padding: 20px; text-align: left; }
+#sponsor-perks .perk { background-color: rgba(0, 0, 0, 0.3); border-left: 2px solid #f15a22; border-bottom: 2px solid #f15a22; text-align: center; padding-top: 20px; }
 
 #sponsor-perks .empty { border-left: 2px solid #f15a22; border-bottom: 2px solid #f15a22; }
 
