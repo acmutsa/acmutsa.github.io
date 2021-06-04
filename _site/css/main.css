@@ -2626,11 +2626,7 @@ section { padding: 60px 0; overflow: hidden; }
   100% { transform: rotate(360deg); } }
 /* ---------------------------------- Sponsorship Section
 ----------------------------------- */
-#sponsorship { width: 100%; height: 100%; background-size: cover; position: relative; }
-
 #sponsorship:before { content: ""; background: rgba(0, 0, 0, 0.4); position: absolute; bottom: 0; top: 0; left: 0; right: 0; }
-
-#sponsorship h2 { margin: 0 0 10px 0; font-size: 48px !important; font-weight: 700; line-height: 56px; color: #fff; }
 
 #sponsorship .container { z-index: 1; }
 
