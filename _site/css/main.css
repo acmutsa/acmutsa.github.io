@@ -2647,6 +2647,18 @@ section { padding: 60px 0; overflow: hidden; }
   #sponsorship .terabyte img, #sponsorship .gigabyte img, #sponsorship .megabyte img, #sponsorship .kilobyte img { margin-bottom: 0; } }
 /* ---------------------------------- Sponsor-Perks Section
 ----------------------------------- */
+#sponsor-perks span { font-weight: bold; }
+
+#sponsor-perks .perks-grid { display: grid; grid-template-columns: repeat(1, 60%) repeat(4, 10%); padding: 25px; color: white; }
+
+#sponsor-perks .header { font-size: 16px; border-bottom: 2px solid #f15a22; border-left: 2px solid #f15a22; padding: 15px; text-align: center; }
+
+#sponsor-perks .statement { font-size: 16px; border-bottom: 2px solid #f15a22; padding: 20px; text-align: left; }
+
+#sponsor-perks .perk { background-color: rgba(0, 0, 0, 0.3); border-left: 2px solid #f15a22; border-bottom: 2px solid #f15a22; padding: 20px; text-align: left; }
+
+#sponsor-perks .empty { border-left: 2px solid #f15a22; border-bottom: 2px solid #f15a22; }
+
 /* ---------------------------------- Footer Section
 ----------------------------------- */
 #footer { background: black; padding: 0 0 30px 0; color: #fff; font-size: 14px; }
