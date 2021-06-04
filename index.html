@@ -10,6 +10,10 @@ layout: default
 <main id="main">
     {% include about_section.html %}
     {% include suborg_section.html %}
-    {% include sponsor_section.html %}
+    <section id="sponsorship" class="section-bg z-index-overlay">
+        <div class="container">
+            {% include sponsor_section.html %}
+        </div>
+    </section>
     {% include contact_section.html %}
 </main>

@@ -1072,7 +1072,7 @@ section {
 //  position: relative;
 //}
 
-#sponsorship:before {
+#sponsorship:before .z-index-overlay {
   content: "";
   background: rgba(0, 0, 0, 0.4);
   position: absolute;
@@ -1143,6 +1143,13 @@ section {
   #sponsorship .terabyte img, #sponsorship .gigabyte img, #sponsorship .megabyte img, #sponsorship .kilobyte img {
     margin-bottom: 0;
   }
+}
+
+/* ----------------------------------
+  Sponsor-Perks Section
+----------------------------------- */
+#sponsor-perks {
+
 }
 
 /* ----------------------------------

@@ -1,147 +1,141 @@
-<!-- Can update this team section to be a _layout if needed -->
+<div class="section-title" data-aos="fade-up">
+    <h2>The Team</h2>
+</div>
+<!-- TODO should make name+info appear automatically on mobile -->
+<div class="row" data-aos="fade-up">
+    <div class="row boxes">
+        {% assign councilLevel="faculty" %}
+        {% assign image="512-mark-robinson.jpg" %}
+        {% assign name="Mark Robinson" %}
+        {% assign title="ACM Faculty Sponsor" %}
+        {% assign linkedin="" %}
+        {% include officer.html %}
 
-<section id="team" class="team section-bg-option-2">
-    <div class="container">
+        {% assign councilLevel="faculty" %}
+        {% assign image="512-jianwei-niu.jpg" %}
+        {% assign name="Jianwei Niu" %}
+        {% assign title="ACM-W Faculty Sponsor" %}
+        {% assign linkedin="" %}
+        {% include officer.html %}
 
-        <div class="section-title" data-aos="fade-up">
-            <h2>The Team</h2>
-        </div>
+        <!--
+            Executive Council
+        -->
+        <!-- President -->
+        {% assign councilLevel="executive" %}
+        {% assign image="christopher-de-leon.jpg" %}
+        {% assign name="Christopher De Leon" %}
+        {% assign title="President" %}
+        {% assign linkedin="" %}
+        {% include officer.html %}
 
-        <div class="row" data-aos="fade-up">
-            <div class="row boxes">
-                {% assign councilLevel="faculty" %}
-                {% assign image="512-mark-robinson.jpg" %}
-                {% assign name="Mark Robinson" %}
-                {% assign title="ACM Faculty Sponsor" %}
-                {% assign linkedin="" %}
-                {% include officer.html %}
+        <!-- Vice President -->
+        {% assign councilLevel="executive" %}
+        {% assign image="jenelle-millison.png" %}
+        {% assign name="Jenelle Millison" %}
+        {% assign title="Vice President" %}
+        {% assign linkedin="" %}
+        {% include officer.html %}
 
-                {% assign councilLevel="faculty" %}
-                {% assign image="512-jianwei-niu.jpg" %}
-                {% assign name="Jianwei Niu" %}
-                {% assign title="ACM-W Faculty Sponsor" %}
-                {% assign linkedin="" %}
-                {% include officer.html %}
+        <!-- Secretary -->
+        {% assign councilLevel="executive" %}
+        {% assign image="desiree-garcia.jpg" %}
+        {% assign name="Desiree Garcia" %}
+        {% assign title="Secretary" %}
+        {% assign linkedin="" %}
+        {% include officer.html %}
 
-                <!--
-                    Executive Council
-                -->
-                <!-- President -->
-                {% assign councilLevel="executive" %}
-                {% assign image="christopher-de-leon.jpg" %}
-                {% assign name="Christopher De Leon" %}
-                {% assign title="President" %}
-                {% assign linkedin="" %}
-                {% include officer.html %}
+        <!-- Treasurer -->
+        {% assign councilLevel="executive" %}
+        {% assign image="jonathan-flores.jpg" %}
+        {% assign name="Jonathan Flores" %}
+        {% assign title="Treasurer" %}
+        {% assign linkedin="" %}
+        {% include officer.html %}
 
-                <!-- Vice President -->
-                {% assign councilLevel="executive" %}
-                {% assign image="jenelle-millison.png" %}
-                {% assign name="Jenelle Millison" %}
-                {% assign title="Vice President" %}
-                {% assign linkedin="" %}
-                {% include officer.html %}
+        <!-- RowdyHacks Director -->
+        {% assign councilLevel="executive" %}
+        {% assign image="512_Trey_DAmico.jpg" %}
+        {% assign name="Trey d'Amico" %}
+        {% assign title="RowdyHacks Director" %}
+        {% assign linkedin="" %}
+        {% include officer.html %}
 
-                <!-- Secretary -->
-                {% assign councilLevel="executive" %}
-                {% assign image="desiree-garcia.jpg" %}
-                {% assign name="Desiree Garcia" %}
-                {% assign title="Secretary" %}
-                {% assign linkedin="" %}
-                {% include officer.html %}
+        <!-- ACM-W Director -->
+        {% assign councilLevel="executive" %}
+        {% assign image="tiffany-tran.jpg" %}
+        {% assign name="tiffany tran" %}
+        {% assign title="ACM-W Director" %}
+        {% assign linkedin="" %}
+        {% include officer.html %}
 
-                <!-- Treasurer -->
-                {% assign councilLevel="executive" %}
-                {% assign image="jonathan-flores.jpg" %}
-                {% assign name="Jonathan Flores" %}
-                {% assign title="Treasurer" %}
-                {% assign linkedin="" %}
-                {% include officer.html %}
+        <!-- Rowdy Creators Director -->
+        {% assign councilLevel="executive" %}
+        {% assign image="512-russell-gardner.png" %}
+        {% assign name="Russell Gardner" %}
+        {% assign title="Rowdy Creators Director" %}
+        {% assign linkedin="" %}
+        {% include officer.html %}
 
-                <!-- RowdyHacks Director -->
-                {% assign councilLevel="executive" %}
-                {% assign image="512_Trey_DAmico.jpg" %}
-                {% assign name="Trey d'Amico" %}
-                {% assign title="RowdyHacks Director" %}
-                {% assign linkedin="" %}
-                {% include officer.html %}
+        <!-- ICPC Director -->
+        {% assign councilLevel="executive" %}
+        {% assign image="brent-delia.jpg" %}
+        {% assign name="Brent Delia" %}
+        {% assign title="ICPC Director" %}
+        {% assign linkedin="" %}
+        {% include officer.html %}
 
-                <!-- ACM-W Director -->
-                {% assign councilLevel="executive" %}
-                {% assign image="tiffany-tran.jpg" %}
-                {% assign name="tiffany tran" %}
-                {% assign title="ACM-W Director" %}
-                {% assign linkedin="" %}
-                {% include officer.html %}
+        <!--
+            Council
+        -->
+        <!-- Public Relations Officer -->
+        {% assign councilLevel="council" %}
+        {% assign image="512-leah-mishket.jpg" %}
+        {% assign name="Leah Mishket" %}
+        {% assign title="Public Relations Officer" %}
+        {% assign linkedin="" %}
+        {% include officer.html %}
 
-                <!-- Rowdy Creators Director -->
-                {% assign councilLevel="executive" %}
-                {% assign image="512-russell-gardner.png" %}
-                {% assign name="Russell Gardner" %}
-                {% assign title="Rowdy Creators Director" %}
-                {% assign linkedin="" %}
-                {% include officer.html %}
+        <!-- Media Officer -->
+        {% assign councilLevel="council" %}
+        {% assign image="bryant-gutierrez.png" %}
+        {% assign name="Bryant Gutierrez" %}
+        {% assign title="Media Officer" %}
+        {% assign linkedin="" %}
+        {% include officer.html %}
 
-                <!-- ICPC Director -->
-                {% assign councilLevel="executive" %}
-                {% assign image="brent-delia.jpg" %}
-                {% assign name="Brent Delia" %}
-                {% assign title="ICPC Director" %}
-                {% assign linkedin="" %}
-                {% include officer.html %}
+        <!-- Projects Officer -->
+        {% assign councilLevel="council" %}
+        {% assign image="vanessa-rivera.jpg" %}
+        {% assign name="Vanessa Rivera" %}
+        {% assign title="Projects Officer" %}
+        {% assign linkedin="" %}
+        {% include officer.html %}
 
-                <!--
-                    Council
-                -->
-                <!-- Public Relations Officer -->
-                {% assign councilLevel="council" %}
-                {% assign image="512-leah-mishket.jpg" %}
-                {% assign name="Leah Mishket" %}
-                {% assign title="Public Relations Officer" %}
-                {% assign linkedin="" %}
-                {% include officer.html %}
+        <!-- Membership Officer -->
+        {% assign councilLevel="council" %}
+        {% assign image="tiba-alanssari.jpg" %}
+        {% assign name="Tiba Al Anssari" %}
+        {% assign title="Membership Officer" %}
+        {% assign linkedin="" %}
+        {% include officer.html %}
 
-                <!-- Media Officer -->
-                {% assign councilLevel="council" %}
-                {% assign image="bryant-gutierrez.png" %}
-                {% assign name="Bryant Gutierrez" %}
-                {% assign title="Media Officer" %}
-                {% assign linkedin="" %}
-                {% include officer.html %}
+        <!-- Technical Officer -->
+        {% assign councilLevel="council" %}
+        {% assign image="zaquariah-holland.jpg" %}
+        {% assign name="Zaquariah Holland" %}
+        {% assign title="Technical Officer" %}
+        {% assign linkedin="zaquariah-holland" %}
+        {% include officer.html %}
 
-                <!-- Projects Officer -->
-                {% assign councilLevel="council" %}
-                {% assign image="vanessa-rivera.jpg" %}
-                {% assign name="Vanessa Rivera" %}
-                {% assign title="Projects Officer" %}
-                {% assign linkedin="" %}
-                {% include officer.html %}
+        <!-- Social Officer -->
+        {% assign councilLevel="council" %}
+        {% assign image="gage-nichols.jpeg" %}
+        {% assign name="Gage Nichols" %}
+        {% assign title="Social Officer" %}
+        {% assign linkedin="" %}
+        {% include officer.html %}
 
-                <!-- Membership Officer -->
-                {% assign councilLevel="council" %}
-                {% assign image="tiba-alanssari.jpg" %}
-                {% assign name="Tiba Al Anssari" %}
-                {% assign title="Membership Officer" %}
-                {% assign linkedin="" %}
-                {% include officer.html %}
-
-                <!-- Technical Officer -->
-                {% assign councilLevel="council" %}
-                {% assign image="zaquariah-holland.jpg" %}
-                {% assign name="Zaquariah Holland" %}
-                {% assign title="Technical Officer" %}
-                {% assign linkedin="zaquariah-holland" %}
-                {% include officer.html %}
-
-                <!-- Social Officer -->
-                {% assign councilLevel="council" %}
-                {% assign image="gage-nichols.jpeg" %}
-                {% assign name="Gage Nichols" %}
-                {% assign title="Social Officer" %}
-                {% assign linkedin="" %}
-                {% include officer.html %}
-
-                <!-- should we include ACM-W council? -->
-            </div>
-        </div>
-</section>
+        <!-- should we include ACM-W council? -->
+    </div>
+</div>
