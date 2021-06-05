@@ -2298,6 +2298,8 @@ a:hover { color: #133763; text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6 { font-family: "Raleway", sans-serif; }
 
+img { pointer-events: none; }
+
 /* ---------------------------------- Header
 ----------------------------------- */
 #header { height: 72px; transition: all 0.5s; z-index: 997; transition: all 0.5s; padding: 15px 0; background: #0C2340; }
