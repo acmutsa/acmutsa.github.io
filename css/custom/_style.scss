@@ -1165,7 +1165,7 @@ section {
 
 #sponsor-perks .perks-grid {
   display: grid;
-  grid-template-columns: repeat(1, 60%) repeat(4, 10%);//auto auto auto auto auto;
+  grid-template-columns: repeat(1, 60%) repeat(4, 10%);
   padding: 25px;
   color: white;
 }
@@ -1176,6 +1176,19 @@ section {
   border-left: 2px solid $primary;
   padding: 15px;
   text-align: center;
+  // mobile realignment
+  @media (max-width: 1200px) {
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    font-size: 14px;
+  }
+  @media (max-width: 768px) {
+    padding: 5px;
+    a {
+      font-size: 0;
+      visibility: hidden;
+    }
+  }
 }
 
 #sponsor-perks .statement {
@@ -1185,7 +1198,6 @@ section {
   text-align: left;
 }
 
-// TODO change this to a favicon with a checkmark and a lighter background
 #sponsor-perks .perk {
   background-color: rgba(0, 0, 0, 0.3);
   border-left: 2px solid $primary;
