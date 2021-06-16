@@ -2666,6 +2666,11 @@ section { padding: 60px 0; overflow: hidden; }
 
 #sponsor-perks .empty { border-left: 2px solid #f15a22; border-bottom: 2px solid #f15a22; }
 
+/* ---------------------------------- Typeform
+----------------------------------- */
+.typeform-iframes iframe { position: absolute; height: calc(100vh - 72px); left: 0; right: 0; bottom: 0; border: 0; }
+
+@media (max-width: 992px) { .typeform-iframes iframe { height: calc(100vh - 60px); } }
 /* ---------------------------------- Footer Section
 ----------------------------------- */
 #footer { background: black; padding: 0 0 30px 0; color: #fff; font-size: 14px; }
