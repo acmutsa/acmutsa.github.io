@@ -805,6 +805,19 @@ section {
   }
 }
 
+@media (max-width: 992px) {
+  .team .member .member-info {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
+    opacity: 1;
+    transition: 0.4s;
+  }
+
+  .team .member .member-info-content {
+    bottom: 30px;
+    transition: bottom 0.4s;
+  }
+}
+
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
