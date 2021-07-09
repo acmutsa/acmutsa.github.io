@@ -773,7 +773,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #f15a22;
+  color: $primary;
 }
 
 .team .member .social i {
@@ -822,7 +822,7 @@ section {
 }
 
 .team #team-flters a:hover, .team #team-flters a.filter-active {
-  color: #f15a22;
+  color: $primary;
 }
 
 .team #team-flters a:last-child {
@@ -895,7 +895,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #f15a22;
+  color: $primary;
 }
 
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
@@ -915,11 +915,11 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #0c2340;
+  color: $secondary;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #f15a22;
+  color: $primary;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -948,7 +948,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #0c2340;
+  color: $secondary;
   float: left;
   width: 44px;
   height: 44px;
@@ -965,14 +965,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #f15a22;
+  color: $primary;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #0c2340;
+  color: $secondary;
 }
 
 .contact .info .email p {
@@ -999,12 +999,12 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #f15a22;
+  background: $primary;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #f15a22;
+  background: $primary;
   color: #fff;
 }
 
@@ -1039,7 +1039,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #f15a22;
+  background: $primary;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1059,7 +1059,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #0c2340;
+  border: 3px solid $secondary;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1080,7 +1080,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #f15a22;
+  background: $primary;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1089,11 +1089,11 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #0c2340;
+  background: $secondary;
 }
 
 .contact .send-email button {
-  background: #f15a22;
+  background: $primary;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1102,7 +1102,7 @@ section {
 }
 
 .contact .send-email button:hover {
-  background: #0c2340;
+  background: $secondary;
 }
 
 @-webkit-keyframes animate-loading {

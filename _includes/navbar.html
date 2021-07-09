@@ -11,10 +11,10 @@
     <nav class="nav-menu d-none d-lg-block">
       <!-- can add up to two layers of drop downs [class="drop-down"] -->
       <ul>
-        <li class="active"><a href="{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.baseurl }}{% link team.html %}">Team</a></li>
-        <li><a href="{{ site.baseurl }}{% link calendar.html %}">Calendar</a></li>
-        <li class="drop-down"><a href="">Sub Orgs</a>
+        <li class="active" tabindex="0"><a href="{{ site.baseurl }}/">Home</a></li>
+        <li tabindex="0"><a href="{{ site.baseurl }}{% link team.html %}">Team</a></li>
+        <li tabindex="0"><a href="{{ site.baseurl }}{% link calendar.html %}">Calendar</a></li>
+        <li class="drop-down" tabindex="0"><a href="">Sub Orgs</a>
           <ul>
             <li><a href="{{ site.baseurl }}{% link suborg_acmw.html %}">ACM-W</a></li>
             <li><a href="{{ site.baseurl }}{% link suborg_icpc.html %}">ACM ICPC</a></li>
@@ -24,18 +24,18 @@
             <li><a href="{{ site.baseurl }}{% link suborg_code_quantum.html %}">Code Quantum</a></li>
           </ul>
         </li>
-        <li><a href="{{ site.baseurl }}{% link sponsorship.html %}">Sponsorship</a></li>
-        <li><a href="{{ site.baseurl }}{% link donate.html %}">Donate</a></li>
-        <li class="drop-down"><a href="">Resources</a>
+        <li tabindex="0"><a href="{{ site.baseurl }}{% link sponsorship.html %}">Sponsorship</a></li>
+        <li tabindex="0"><a href="{{ site.baseurl }}{% link donate.html %}">Donate</a></li>
+        <li class="drop-down" tabindex="0"><a href="">Resources</a>
           <ul>
-            <li><a href="{{ site.baseurl }}{% link member_new.html %}">Register</a></li>
-            <li><a href="{{ site.baseurl }}{% link feedback.html %}">Feedback</a></li>
-            <li><a href="{{ site.baseurl }}{% link member_update_info.html %}">Update Member</a></li>
-            <li><a href="{{ site.baseurl }}{% link member_update_address.html %}">Update Address</a></li>
-            <li><a href="https://drive.google.com/file/d/1IaRj6Nl2F467vu9xBJajbMHbHri4ymUo/view?usp=sharing">Constitution</a></li>
-<!--            <li><a href="">Code of Conduct</a></li>-->
-            <li><a href="https://elections.acmutsa.org">Elections</a></li>
-<!--            <li><a href="{{ site.baseurl }}{% link faq.html %}">F.A.Q.</a></li>-->
+            <li tabindex="0"><a href="{{ site.baseurl }}{% link member_new.html %}">Register</a></li>
+            <li tabindex="0"><a href="{{ site.baseurl }}{% link feedback.html %}">Feedback</a></li>
+            <li tabindex="0"><a href="{{ site.baseurl }}{% link member_update_info.html %}">Update Member</a></li>
+            <li tabindex="0"><a href="{{ site.baseurl }}{% link member_update_address.html %}">Update Address</a></li>
+            <li tabindex="0"><a href="https://drive.google.com/file/d/1IaRj6Nl2F467vu9xBJajbMHbHri4ymUo/view?usp=sharing">Constitution</a></li>
+<!--            <li tabindex="0"><a href="">Code of Conduct</a></li>-->
+            <li tabindex="0"><a href="https://elections.acmutsa.org">Elections</a></li>
+<!--            <li tabindex="0"><a href="{{ site.baseurl }}{% link faq.html %}">F.A.Q.</a></li>-->
           </ul>
         </li>
       </ul>
