@@ -2300,6 +2300,12 @@ h1, h2, h3, h4, h5, h6 { font-family: "Raleway", sans-serif; }
 
 img { pointer-events: none; }
 
+/* ---------------------------------- Buttons
+----------------------------------- */
+.sub-org-button { padding: 10px 0 0 10px; border-right: 1px solid #f15a22; border-bottom: 1px solid #f15a22; border-radius: 20px; box-shadow: 5px 5px 8px #888888; }
+
+.sub-org-button:hover, .sub-org-button:focus, .sub-org-button:focus-visible { box-shadow: 12px 12px 8px #888888; outline: none; }
+
 /* ---------------------------------- Header
 ----------------------------------- */
 #header { height: 72px; transition: all 0.5s; z-index: 997; transition: all 0.5s; padding: 15px 0; background: #0C2340; }
@@ -2668,7 +2674,7 @@ section { padding: 60px 0; overflow: hidden; }
 
 #sponsor-perks .empty { border-left: 2px solid #f15a22; border-bottom: 2px solid #f15a22; }
 
-/* ---------------------------------- Typeform
+/* ---------------------------------- Typeforms
 ----------------------------------- */
 #typeform { width: 100%; height: calc(100vh - 72px); margin-top: 72px; padding: 0; }
 

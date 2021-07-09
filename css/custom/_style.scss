@@ -24,6 +24,23 @@ img {
 }
 
 /* ----------------------------------
+  Buttons
+----------------------------------- */
+
+.sub-org-button {
+  padding: 10px 0 0 10px;
+  border-right: 1px solid $primary;
+  border-bottom: 1px solid $primary;
+  border-radius: 20px;
+  box-shadow: 5px 5px 8px #888888;
+}
+
+.sub-org-button:hover, .sub-org-button:focus, .sub-org-button:focus-visible {
+  box-shadow: 12px 12px 8px #888888;
+  outline: none;
+}
+
+/* ----------------------------------
   Header
 ----------------------------------- */
 #header {
@@ -1224,7 +1241,7 @@ section {
 }
 
 /* ----------------------------------
-  Typeform
+  Typeforms
 ----------------------------------- */
 
 #typeform {
