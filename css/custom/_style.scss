@@ -27,25 +27,6 @@ img {
   Buttons
 ----------------------------------- */
 
-button {
-  background: transparent;
-  color: $primary;
-  border: transparent;
-  border-right: 1px solid $primary;
-  border-bottom: 1px solid $primary;
-  border-radius: 20px;
-  box-shadow: 8px 8px 8px $background-gray;
-  padding: 10px 25px;
-}
-
-button:hover,
-button:focus,
-button:focus-visible {
-  color: $primary;
-  box-shadow: 12px 12px 8px $background-gray;
-  outline: none;
-}
-
 .sub-org-button {
   padding: 10px 0 0 10px;
   border-right: 1px solid $primary;

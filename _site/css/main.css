@@ -2302,10 +2302,6 @@ img { pointer-events: none; }
 
 /* ---------------------------------- Buttons
 ----------------------------------- */
-button { background: transparent; color: #f15a22; border: transparent; border-right: 1px solid #f15a22; border-bottom: 1px solid #f15a22; border-radius: 20px; box-shadow: 8px 8px 8px #888888; padding: 10px 25px; }
-
-button:hover, button:focus, button:focus-visible { color: #f15a22; box-shadow: 12px 12px 8px #888888; outline: none; }
-
 .sub-org-button { padding: 10px 0 0 10px; border-right: 1px solid #f15a22; border-bottom: 1px solid #f15a22; border-radius: 20px; box-shadow: 5px 5px 8px #888888; }
 
 .sub-org-button:hover, .sub-org-button:focus, .sub-org-button:focus-visible { box-shadow: 12px 12px 8px #888888; outline: none; }
