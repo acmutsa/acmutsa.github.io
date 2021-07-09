@@ -32,11 +32,11 @@ img {
   border-right: 1px solid $primary;
   border-bottom: 1px solid $primary;
   border-radius: 20px;
-  box-shadow: 5px 5px 8px #888888;
+  box-shadow: 5px 5px 8px $background-gray;
 }
 
 .sub-org-button:hover, .sub-org-button:focus, .sub-org-button:focus-visible {
-  box-shadow: 12px 12px 8px #888888;
+  box-shadow: 12px 12px 8px $background-gray;
   outline: none;
 }
 
