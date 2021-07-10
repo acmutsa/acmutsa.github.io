@@ -39,6 +39,7 @@ img {
 .sub-org-button:focus,
 .sub-org-button:focus-visible {
   box-shadow: 12px 12px 8px $background-gray;
+  cursor: pointer;
   outline: none;
 }
 
@@ -59,6 +60,7 @@ a > button:focus,
 a > button:focus-visible {
   color: $primary;
   box-shadow: 12px 12px 8px $background-gray;
+  cursor: pointer;
   outline: none;
 }
 
