@@ -14,5 +14,5 @@ Check out their [docs here](https://jekyllrb.com/docs/)!
 
 Already installed? Run Jekyll with:
 ```
-$: bundle exec jekyll serve --livereload
+bundle exec jekyll serve --livereload
 ```
