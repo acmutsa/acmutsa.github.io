@@ -8,14 +8,14 @@
                 <h4>{{ name }}</h4>
                 <span>{{ title }}</span>
             </div>
-            {% if linkedin != "" %}
                 <div class="social">
+                    {% if linkedin != "" %}
                     <a href="https://www.linkedin.com/in/{{ linkedin }}"><i class="iconify" data-icon="cib:linkedin" data-inline="false"></i></a>
+                    {% endif %}
 <!--                    <a href="https://www.linkedin.com/in/{{ twitter }}"><i class="iconify" data-icon="cib:twitter" data-inline="false"></i></a>-->
-<!--                    <a href="https://www.linkedin.com/in/{{ facebook }}"><i class="iconify" data-icon="cib:facebook" data-inline="false"></i></a>-->
 <!--                    <a href="https://www.linkedin.com/in/{{ instagram }}"><i class="iconify" data-icon="cib:instagram" data-inline="false"></i></a>-->
+<!--                    <a href="https://www.linkedin.com/in/{{ facebook }}"><i class="iconify" data-icon="cib:facebook" data-inline="false"></i></a>-->
                 </div>
-            {% endif %}
         </div>
     </div>
 </div>
