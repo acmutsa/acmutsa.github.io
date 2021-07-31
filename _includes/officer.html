@@ -12,9 +12,18 @@
                     {% if linkedin != "" %}
                     <a href="https://www.linkedin.com/in/{{ linkedin }}"><i class="iconify" data-icon="cib:linkedin" data-inline="false"></i></a>
                     {% endif %}
-<!--                    <a href="https://www.linkedin.com/in/{{ twitter }}"><i class="iconify" data-icon="cib:twitter" data-inline="false"></i></a>-->
-<!--                    <a href="https://www.linkedin.com/in/{{ instagram }}"><i class="iconify" data-icon="cib:instagram" data-inline="false"></i></a>-->
-<!--                    <a href="https://www.linkedin.com/in/{{ facebook }}"><i class="iconify" data-icon="cib:facebook" data-inline="false"></i></a>-->
+
+                    {% if twitter != "" %}
+                    <a href="https://www.linkedin.com/in/{{ twitter }}"><i class="iconify" data-icon="cib:twitter" data-inline="false"></i></a>
+                    {% endif %}
+
+                    {% if instagram != "" %}
+                    <a href="https://www.linkedin.com/in/{{ instagram }}"><i class="iconify" data-icon="cib:instagram" data-inline="false"></i></a>
+                    {% endif %}
+
+                    {% if other != "" %}
+                    <a href="{{ other }}"><i class="iconify" data-icon="fa-regular:plus-square" data-inline="false"></i></a>
+                    {% endif %}
                 </div>
         </div>
     </div>
