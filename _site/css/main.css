@@ -2318,6 +2318,8 @@ a > button:hover, a > button:focus, a > button:focus-visible { color: #f15a22; b
 
 .button_cont p { margin-bottom: 0; }
 
+.perk-sponsorship .main-button { color: #0C2340; border-color: #0C2340; }
+
 .sub-org-buttons .main-button { width: 100%; color: #0C2340; border-color: #0C2340; }
 
 /* ---------------------------------- Header

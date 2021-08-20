@@ -86,13 +86,13 @@ a > button:focus-visible {
   transition: all 0.3s ease 0s;
 }
 
-//.button_cont .main-button {
-//  color: $secondary !important;
-//  border-color: $secondary !important;
-//}
-
 .button_cont p {
   margin-bottom: 0;
+}
+
+.perk-sponsorship .main-button {
+  color: $secondary;
+  border-color: $secondary;
 }
 
 .sub-org-buttons .main-button {
