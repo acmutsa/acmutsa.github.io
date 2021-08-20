@@ -2697,7 +2697,7 @@ section { padding: 60px 0; overflow: hidden; }
 
 #footer .footer-top .footer-info p { font-size: 14px; line-height: 24px; margin-bottom: 0; font-family: "Raleway", sans-serif; color: #fff; }
 
-#footer .footer-top .social-links a { font-size: 18px; display: inline-block; background: #0C2380; color: #fff; line-height: 1; padding: 8px 0; margin-right: 4px; margin-bottom: 5px; border-radius: 50%; text-align: center; width: 36px; height: 36px; transition: 0.3s; }
+#footer .footer-top .social-links a { font-size: 22px; display: inline-block; background: #fff; color: #0C2380; line-height: 1; padding: 6px 0; margin-right: 4px; margin-bottom: 5px; border-radius: 50%; text-align: center; width: 36px; height: 36px; transition: 0.3s; }
 
 #footer .footer-top .social-links a:hover { background: #f15a22; color: #fff; text-decoration: none; }
 
