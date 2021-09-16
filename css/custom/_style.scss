@@ -360,6 +360,8 @@ section {
 }
 
 .section-bg {
+  // $secondary background color set to 99% opacity
+  //background-color: #0C234099;
   background-color: $secondary;
   opacity: 92%;
 }
@@ -1198,9 +1200,16 @@ section {
   padding: 10px;
 }
 
+#sponsorship img {
+  width: 465px;
+}
+
 @media (max-width: 992px) {
   #sponsorship {
     height: 100%;
+  }
+  #sponsorship img {
+    width: 345px;
   }
 }
 
