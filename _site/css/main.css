@@ -2661,8 +2661,11 @@ section { padding: 60px 0; overflow: hidden; }
 
 #sponsorship img { width: 465px; }
 
+#sponsorship .image-container { height: 330px; }
+
 @media (max-width: 992px) { #sponsorship { height: 100%; }
-  #sponsorship img { width: 345px; } }
+  #sponsorship img { width: 345px; }
+  #sponsorship .image-container { height: 245px; } }
 @media (max-width: 768px) { #sponsorship h2 { font-size: 28px; line-height: 36px; }
   #sponsorship .terabyte img, #sponsorship .gigabyte img, #sponsorship .megabyte img, #sponsorship .kilobyte img { margin-bottom: 0; } }
 /* ---------------------------------- Sponsor-Perks Section

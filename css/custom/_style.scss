@@ -1204,12 +1204,19 @@ section {
   width: 465px;
 }
 
+#sponsorship .image-container {
+  height: 330px;
+}
+
 @media (max-width: 992px) {
   #sponsorship {
     height: 100%;
   }
   #sponsorship img {
     width: 345px;
+  }
+  #sponsorship .image-container {
+    height: 245px;
   }
 }
 
