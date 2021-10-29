@@ -1,47 +1,48 @@
-<div class="section-title" data-aos="fade-up">
-    <h2>Our Sponsors</h2>
-<!--    <h2>Want to Sponsor ACM? Check out our packet!</h2>-->
-<!--    <a href="https://drive.google.com/file/d/1SNykyLrV13FuVi6eZph43g8boaUiCTHl/view?usp=sharing" target="_blank"><button><h3>2021 - 2022 ACM Sponsorship Packet</h3></button></a>-->
-</div>
+<section id="sponsorship" class="{{ sponsorship_classes }}">
+    <div class="container">
+        <div class="section-title" data-aos="fade-up">
+            <h2>Our Sponsors</h2>
+        </div>
 
-<!--Liquid Template to add a sponsor-->
-{% comment %}
-    {% assign imageSource="utsa_cos.png" %}
-    {% assign altText="UTSA College of Science" %}
-    {% include sponsor.html %}
-{% endcomment %}
+        <!--Liquid Template to add a sponsor-->
+        {% comment %}
+            {% assign imageSource="utsa_cos.png" %}
+            {% assign altText="UTSA College of Science" %}
+            {% include sponsor.html %}
+        {% endcomment %}
 
-<!-- Slick carousel for sponsors -->
-<!--<div class="" data-aos="fade-up">-->
-    <div class="sponsor-carousel" id="carousel" data-aos="fade-up">
-        <div class="image-container">
-            <img src="../assets/img/sponsors/valero.png" alt="Valero logo">
+        <!-- Slick carousel for sponsors -->
+        <div class="sponsor-carousel" id="carousel" data-aos="fade-up">
+            <div class="image-container">
+                <img src="../assets/img/sponsors/valero.png" alt="Valero logo">
+            </div>
+            <div class="image-container" style="margin-top: 85px">
+                <img src="../assets/img/sponsors/paycom.png" alt="Paycom logo">
+            </div>
+            <div class="image-container" style="margin-top: 45px">
+                <img src="../assets/img/sponsors/H-E-B.png" alt="HEB logo">
+            </div>
         </div>
-        <div class="image-container" style="margin-top: 85px">
-            <img src="../assets/img/sponsors/paycom.png" alt="Paycom logo">
-        </div>
-        <div class="image-container" style="margin-top: 45px">
-            <img src="../assets/img/sponsors/H-E-B.png" alt="HEB logo">
-        </div>
+        <!--</div>-->
+
+        <!--&lt;!&ndash;Terabyte Sponsors&ndash;&gt;-->
+        <!--<div class="row d-flex justify-content-center">-->
+        <!--    {% include sponsors_at_terabyte.html %}-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash;Gigabyte Sponsors&ndash;&gt;-->
+        <!--<div class="row d-flex justify-content-center">-->
+        <!--    {% include sponsors_at_gigabyte.html %}-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash;Megabyte Sponsors&ndash;&gt;-->
+        <!--<div class="row d-flex justify-content-center">-->
+        <!--    {% include sponsors_at_megabyte.html %}-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash;Kilobyte Sponsors&ndash;&gt;-->
+        <!--<div class="row d-flex justify-content-center">-->
+        <!--    {% include sponsors_at_kilobyte.html %}-->
+        <!--</div>-->
     </div>
-<!--</div>-->
-
-<!--&lt;!&ndash;Terabyte Sponsors&ndash;&gt;-->
-<!--<div class="row d-flex justify-content-center">-->
-<!--    {% include sponsors_at_terabyte.html %}-->
-<!--</div>-->
-
-<!--&lt;!&ndash;Gigabyte Sponsors&ndash;&gt;-->
-<!--<div class="row d-flex justify-content-center">-->
-<!--    {% include sponsors_at_gigabyte.html %}-->
-<!--</div>-->
-
-<!--&lt;!&ndash;Megabyte Sponsors&ndash;&gt;-->
-<!--<div class="row d-flex justify-content-center">-->
-<!--    {% include sponsors_at_megabyte.html %}-->
-<!--</div>-->
-
-<!--&lt;!&ndash;Kilobyte Sponsors&ndash;&gt;-->
-<!--<div class="row d-flex justify-content-center">-->
-<!--    {% include sponsors_at_kilobyte.html %}-->
-<!--</div>-->
+</section>
