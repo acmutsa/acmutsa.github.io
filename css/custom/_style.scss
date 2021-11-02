@@ -27,6 +27,40 @@ img {
   Buttons
 ----------------------------------- */
 
+button {
+  cursor: pointer;
+  border-width: 1px;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: 500;
+  -webkit-box-shadow: 0 10px 20px -6px rgba(0, 0, 0, .12);
+  -moz-box-shadow: 0 10px 20px -6px rgba(0, 0, 0, .12);
+  box-shadow: 0 10px 20px -6px rgba(0, 0, 0, .12);
+  overflow: hidden;
+  position: relative;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
+  margin-bottom: 25px;
+}
+
+button .icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 65px;
+  bottom: 0;
+  background: #fff;
+  color: $primary;
+  font-size: 45px !important;
+}
+
+form button {
+  padding: 16px 20px;
+}
+
 .sub-org-button {
   padding: 10px 0 0 10px;
   border-right: 1px solid $primary;
@@ -44,25 +78,25 @@ img {
 }
 
 // this is ONLY for the sponsorship section without sponsors
-a > button {
-  background: transparent;
-  color: $primary;
-  border: transparent;
-  border-right: 1px solid $primary;
-  border-bottom: 1px solid $primary;
-  border-radius: 20px;
-  box-shadow: 8px 8px 8px $background-gray;
-  padding: 10px 25px;
-}
-
-a > button:hover,
-a > button:focus,
-a > button:focus-visible {
-  color: $primary;
-  box-shadow: 12px 12px 8px $background-gray;
-  cursor: pointer;
-  outline: none;
-}
+//a > button {
+//  background: transparent;
+//  color: $primary;
+//  border: transparent;
+//  border-right: 1px solid $primary;
+//  border-bottom: 1px solid $primary;
+//  border-radius: 20px;
+//  box-shadow: 8px 8px 8px $background-gray;
+//  padding: 10px 25px;
+//}
+//
+//a > button:hover,
+//a > button:focus,
+//a > button:focus-visible {
+//  color: $primary;
+//  box-shadow: 12px 12px 8px $background-gray;
+//  cursor: pointer;
+//  outline: none;
+//}
 
 /* ----------------------------------
   Header

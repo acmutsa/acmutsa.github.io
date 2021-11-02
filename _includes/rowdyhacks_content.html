@@ -1,48 +1,56 @@
 <div class="color-overlay"></div>
+
 <video id="videoBG" autoplay muted loop poster="{{ site.baseurl }}/assets/video/rowdyhacks-video-thumbnail.jpg">
     <source src="../assets/video/RowdyHacks_promo_video.mp4" type="video/mp4">
 </video>
 
-<section id="statement" class="d-flex flex-column justify-content-center align-items-center" data-aos="fade-up">
+<section id="statement" class="col-12 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up">
     <div id="title" class="container text-center">
         <h1>RowdyHacks</h1>
         <h2>RowdyHacks is ACM UTSA's annual hackathon held in April.</h2>
-        <h2>Every year, a committee of ACM members get together to help plan and organize the biggest hackathon in San Antonio, TX accommodating hundreds of students, sponsors, volunteers, and mentors.</h2>
+        <h2>Every year, a new committee of organizers get together to help plan and organize the biggest hackathon in San Antonio, TX accommodating hundreds of students, sponsors, volunteers, and mentors.</h2>
         <h2>Interested in sponsorship or being a RowdyHacks organizer? Reach out to us at team@rowdyhacks.org to see how you can get involved.</h2>
-        <a href="https://www.rowdyhacks.io/" class="btn-get-started scrollto">Go To RowdyHacks.io</a>
+        <form action="https://www.rowdyhacks.org/">
+            <button type="submit" class="btn-primary btn-block">
+                <span>Go To RowdyHacks.org</span>
+            </button>
+        </form>
     </div>
 </section>
 
 <section id="about" class="about section-bg-option-2">
     <div class="container">
         <div class="row">
-            <div class="col-xl-6 col-lg-7" data-aos="fade-right">
-                <img src="{{ site.baseurl }}/assets/img/logos/rowdyhacks_21_logo.png" class="img-fluid" alt="">
+            <div class="col-xl-6 col-lg-7 align-self-center text-center" data-aos="fade-right">
+                <img src="{{ site.baseurl }}/assets/img/logos/rowdyhacks-city-logo.png" class="img-fluid" alt="">
             </div>
             <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
-                <h3 data-aos="fade-up">Interested in Joining the Team?</h3>
+                <h3 data-aos="fade-up">Interested in Participating?</h3>
                 <div data-aos="fade-up">
-                    <a href="mailto:team@rowdyhacks.org" target="_blank">
-                        <div class="icon-box sub-org-button" tabindex="0">
-                            <i class="bx bx-mail-send"></i>
-                            <h4>Contact Us</h4>
-                            <p>team@rowdyhacks.org</p>
-                        </div>
-                    </a>
-                    <a href="https://discord.acmutsa.org" target="_blank">
-                        <div class="icon-box sub-org-button" tabindex="0">
-                            <i class="bx bxl-discord"></i>
-                            <h4>Join</h4>
-                            <p>ACMs Discord</p>
-                        </div>
-                    </a>
-                    <a href="{{ site.baseurl }}{% link member_new.html %}">
-                        <div class="icon-box sub-org-button" tabindex="0">
-                            <i class="bx bx-user"></i>
-                            <h4>Membership</h4>
-                            <p>Fill out this form and become a member!</p>
-                        </div>
-                    </a>
+                    <form action="mailto:team@rowdyhacks.org">
+                        <button type="submit" class="btn-primary btn-block">
+                            <span>Contact</span>
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <i class="bx bx-mail-send"></i>
+                            </div>
+                        </button>
+                    </form>
+                    <form action="https://discord.acmutsa.org">
+                        <button type="submit" class="btn-primary btn-block">
+                            <span>Join Discord</span>
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <i class="bx bxl-discord"></i>
+                            </div>
+                        </button>
+                    </form>
+                    <form action="{{ site.baseurl }}{% link member_new.html %}">
+                        <button type="submit" class="btn-primary btn-block">
+                            <span>Membership</span>
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <i class="bx bx-user"></i>
+                            </div>
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>

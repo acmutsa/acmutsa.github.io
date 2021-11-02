@@ -1,4 +1,5 @@
 <div class="color-overlay"></div>
+
 <video id="videoBG" autoplay muted loop poster="{{ site.baseurl }}/assets/video/rowdy-creators-thumbnail.jpg">
     <source src="../assets/video/rowdy-creators-background.mp4" type="video/mp4">
 </video>
@@ -21,33 +22,34 @@
             <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
                 <div data-aos="fade-up">
                     <h3>Join Rowdy Creators!</h3>
-                    <div>
-                        <a href="{{ site.baseurl }}{% link calendar.html %}">
-                            <div class="icon-box sub-org-button" tabindex="0">
+                    <form action="{{ site.baseurl }}{% link calendar.html %}">
+                        <button type="submit" class="btn-primary btn-block">
+                            <span>Events</span>
+                            <div class="icon d-flex align-items-center justify-content-center">
                                 <i class="bx bx-calendar-week"></i>
-                                <h4>Events</h4>
-                                <p>Our meetings are listed on our calendar</p>
                             </div>
-                        </a>
-                        <a href="https://discord.gg/gvqbjZU" target="_blank">
-                            <div class="icon-box sub-org-button" tabindex="0">
+                        </button>
+                    </form>
+                    <form action="https://discord.gg/gvqbjZU">
+                        <button type="submit" class="btn-primary btn-block">
+                            <span>Join Discord</span>
+                            <div class="icon d-flex align-items-center justify-content-center">
                                 <i class="bx bxl-discord"></i>
-                                <h4>Join</h4>
-                                <p>Our Discord</p>
                             </div>
-                        </a>
-                        <a href="{{ site.baseurl }}{% link member_new.html %}">
-                            <div class="icon-box sub-org-button" tabindex="0">
+                        </button>
+                    </form>
+                    <form action="{{ site.baseurl }}{% link member_new.html %}">
+                        <button type="submit" class="btn-primary btn-block">
+                            <span>Membership</span>
+                            <div class="icon d-flex align-items-center justify-content-center">
                                 <i class="bx bx-user"></i>
-                                <h4>Membership</h4>
-                                <p>Fill out this form and become a member!</p>
                             </div>
-                        </a>
-                    </div>
+                        </button>
+                    </form>
                 </div>
             </div>
 
-            <div class="col-xl-6 col-lg-7" data-aos="fade-left">
+            <div class="col-xl-6 col-lg-7 align-self-center text-center" data-aos="fade-left">
                 <img src="{{ site.baseurl }}/assets/img/logos/480_rowdy_creators_logo.png" class="img-fluid" alt="">
             </div>
         </div>

@@ -1,9 +1,9 @@
 <section id="about" class="about section-bg-option-2">
     <div class="container">
         <div class="row">
-<!--            <div class="col-xl-6 col-lg-7" data-aos="fade-right">-->
-<!--                <img src="{{ site.baseurl }}/assets/img/logos/icpc-logo.png" class="img-fluid" alt="icpc logo">-->
-<!--            </div>-->
+            <div class="col-xl-6 col-lg-7 align-self-center text-center" data-aos="fade-right">
+                <img src="{{ site.baseurl }}/assets/img/logos/bnb-logo.png" class="img-fluid" alt="icpc logo">
+            </div>
             <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
                 <h3 data-aos="fade-up">What is Bits & Bytes?</h3>
                 <p data-aos="fade-up">
@@ -14,27 +14,30 @@
                 </p><br>
                 <h3 data-aos="fade-up">Interested in Joining?</h3>
                 <div data-aos="fade-up">
-                    <a href="https://rowdyhacks.typeform.com/to/Aur3rCbQ" target="_blank">
-                        <div class="icon-box sub-org-button" tabindex="0">
-                            <i class="bx bx-mail-send"></i>
-                            <h4>Contact</h4>
-                            <p>Fill out this typeform!</p>
-                        </div>
-                    </a>
-                    <a href="https://discord.acmutsa.org" target="_blank">
-                        <div class="icon-box sub-org-button" tabindex="0">
-                            <i class="bx bxl-discord"></i>
-                            <h4>Join</h4>
-                            <p>Our Discord</p>
-                        </div>
-                    </a>
-                    <a href="{{ site.baseurl }}{% link member_new.html %}">
-                        <div class="icon-box sub-org-button" tabindex="0">
-                            <i class="bx bx-user"></i>
-                            <h4>Membership</h4>
-                            <p>Fill out this form and become a member!</p>
-                        </div>
-                    </a>
+                    <form action="https://rowdyhacks.typeform.com/to/Aur3rCbQ">
+                        <button type="submit" class="btn-primary btn-block">
+                            <span>Contact</span>
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <i class="bx bx-mail-send"></i>
+                            </div>
+                        </button>
+                    </form>
+                    <form action="https://discord.acmutsa.org">
+                        <button type="submit" class="btn-primary btn-block">
+                            <span>Join Discord</span>
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <i class="bx bxl-discord"></i>
+                            </div>
+                        </button>
+                    </form>
+                    <form action="{{ site.baseurl }}{% link member_new.html %}">
+                        <button type="submit" class="btn-primary btn-block">
+                            <span>Membership</span>
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <i class="bx bx-user"></i>
+                            </div>
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>

@@ -2302,13 +2302,15 @@ img { pointer-events: none; }
 
 /* ---------------------------------- Buttons
 ----------------------------------- */
+button { cursor: pointer; border-width: 1px; border-radius: 5px; font-size: 22px; font-weight: 500; -webkit-box-shadow: 0 10px 20px -6px rgba(0, 0, 0, 0.12); -moz-box-shadow: 0 10px 20px -6px rgba(0, 0, 0, 0.12); box-shadow: 0 10px 20px -6px rgba(0, 0, 0, 0.12); overflow: hidden; position: relative; -moz-transition: all .3s ease; -o-transition: all .3s ease; -webkit-transition: all .3s ease; -ms-transition: all .3s ease; transition: all .3s ease; margin-bottom: 25px; }
+
+button .icon { position: absolute; top: 0; right: 0; width: 65px; bottom: 0; background: #fff; color: #f15a22; font-size: 45px !important; }
+
+form button { padding: 16px 20px; }
+
 .sub-org-button { padding: 10px 0 0 10px; border-right: 1px solid #f15a22; border-bottom: 1px solid #f15a22; border-radius: 20px; box-shadow: 5px 5px 8px #888888; }
 
 .sub-org-button:hover, .sub-org-button:focus, .sub-org-button:focus-visible { box-shadow: 12px 12px 8px #888888; cursor: pointer; outline: none; }
-
-a > button { background: transparent; color: #f15a22; border: transparent; border-right: 1px solid #f15a22; border-bottom: 1px solid #f15a22; border-radius: 20px; box-shadow: 8px 8px 8px #888888; padding: 10px 25px; }
-
-a > button:hover, a > button:focus, a > button:focus-visible { color: #f15a22; box-shadow: 12px 12px 8px #888888; cursor: pointer; outline: none; }
 
 /* ---------------------------------- Header
 ----------------------------------- */
@@ -2750,7 +2752,7 @@ section { padding: 60px 0; overflow: hidden; }
 /*--------------------------------------------------------------
 # Test Box and Call To Action
 --------------------------------------------------------------*/
-#title { padding-top: 5vh; width: 100%; height: 60%; background-color: #0C2340; opacity: .7; background-size: cover; position: relative; }
+#title { padding: 5vh; background-color: #0C2340; opacity: .7; background-size: cover; position: relative; }
 
 #statement { width: 100%; height: calc(100vh - 72px); background-size: cover; position: relative; margin-top: 72px; padding: 0; }
 
