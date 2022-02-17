@@ -2300,6 +2300,9 @@ h1, h2, h3, h4, h5, h6 { font-family: "Raleway", sans-serif; }
 
 img { pointer-events: none; }
 
+.center-in-container { display: flex; justify-content: center; align-items: center; }
+
+@media (max-width: 992px) { .hidden-on-mobile { display: none; } }
 /* ---------------------------------- Buttons
 ----------------------------------- */
 .sub-org-button { padding: 10px 0 0 10px; border-right: 1px solid #f15a22; border-bottom: 1px solid #f15a22; border-radius: 20px; box-shadow: 5px 5px 8px #888888; }
@@ -2314,7 +2317,9 @@ a > button:hover, a > button:focus, a > button:focus-visible { color: #f15a22; b
 
 .main-button { color: antiquewhite; text-transform: uppercase; background: transparent; padding: 20px; border: 4px solid antiquewhite; border-radius: 6px; display: inline-block; transition: all 0.3s ease 0s; }
 
-.main-button:hover { color: #f15a22 !important; border-radius: 50px; border-color: #f15a22 !important; transition: all 0.3s ease 0s; }
+.main-button:hover { border-radius: 15px; border-color: #f15a22 !important; transition: all 0.3s ease 0s; transform: scale(1.05); }
+
+.main-button:hover .icon-box h4 { color: #f15a22 !important; }
 
 .button_cont p { margin-bottom: 0; }
 

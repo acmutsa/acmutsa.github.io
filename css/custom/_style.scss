@@ -23,6 +23,18 @@ img {
   pointer-events: none;
 }
 
+.center-in-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  .hidden-on-mobile {
+    display: none;
+  }
+}
+
 /* ----------------------------------
   Buttons
 ----------------------------------- */
@@ -80,10 +92,14 @@ a > button:focus-visible {
 }
 
 .main-button:hover {
-  color: $primary !important;
-  border-radius: 50px;
+  border-radius: 15px;
   border-color: $primary !important;
   transition: all 0.3s ease 0s;
+  transform: scale(1.05);
+}
+
+.main-button:hover .icon-box h4 {
+  color: $primary !important;
 }
 
 .button_cont p {

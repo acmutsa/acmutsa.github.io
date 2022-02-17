@@ -1,9 +1,9 @@
 <section id="about" class="about section-bg-option-2">
     <div class="container">
         <div class="row">
-<!--            <div class="col-xl-6 col-lg-7" data-aos="fade-right">-->
-<!--                <img src="{{ site.baseurl }}/assets/img/logos/icpc-logo.png" class="img-fluid" alt="icpc logo">-->
-<!--            </div>-->
+            <div class="col-xl-6 col-lg-7 hidden-on-mobile center-in-container" data-aos="fade-right">
+                <img src="{{ site.baseurl }}/assets/img/logos/bnb-logo.png" class="img-fluid" alt="icpc logo">
+            </div>
             <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
                 <h3 data-aos="fade-up">What is Bits & Bytes?</h3>
                 <p data-aos="fade-up">
@@ -14,27 +14,45 @@
                 </p><br>
                 <h3 data-aos="fade-up">Interested in Joining?</h3>
                 <div data-aos="fade-up">
-                    <a href="https://rowdyhacks.typeform.com/to/Aur3rCbQ" target="_blank">
-                        <div class="icon-box sub-org-button" tabindex="0">
-                            <i class="bx bx-mail-send"></i>
-                            <h4>Contact</h4>
-                            <p>Fill out this typeform!</p>
+                    <div class="sub-org-buttons">
+                        <div class="button_cont">
+                            <a class="main-button"
+                               href="{{ site.baseurl }}{% link calendar.html %}"
+                               rel="nofollow noopener noreferrer"
+                               draggable="false">
+                                <div class="icon-box">
+                                    <i class="bx bx-calendar-week"></i>
+                                    <h4>Events</h4>
+                                    <p>Our meetings are listed on our calendar</p>
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                    <a href="https://discord.acmutsa.org" target="_blank">
-                        <div class="icon-box sub-org-button" tabindex="0">
-                            <i class="bx bxl-discord"></i>
-                            <h4>Join</h4>
-                            <p>Our Discord</p>
+                        <div class="button_cont">
+                            <a class="main-button"
+                               href="https://discord.acmutsa.org"
+                               target="_blank"
+                               rel="nofollow noopener noreferrer"
+                               draggable="false">
+                                <div class="icon-box">
+                                    <i class="bx bxl-discord"></i>
+                                    <h4>Join</h4>
+                                    <p>Our Discord</p>
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                    <a href="{{ site.baseurl }}{% link member_new.html %}">
-                        <div class="icon-box sub-org-button" tabindex="0">
-                            <i class="bx bx-user"></i>
-                            <h4>Membership</h4>
-                            <p>Fill out this form and become a member!</p>
+                        <div class="button_cont">
+                            <a class="main-button"
+                               href="{{ site.baseurl }}{% link member_new.html %}"
+                               rel="nofollow noopener noreferrer"
+                               draggable="false">
+                                <div class="icon-box">
+                                    <i class="bx bx-user"></i>
+                                    <h4>Membership</h4>
+                                    <p>Fill out this form and become a member!</p>
+                                </div>
+                            </a>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
