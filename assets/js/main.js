@@ -122,25 +122,7 @@
         return false;
     });
 
-    // Testimonials carousel (uses the Owl Carousel library)
-    $(".testimonials-carousel").owlCarousel({
-        autoplay: true,
-        dots: true,
-        loop: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            768: {
-                items: 2
-            },
-            900: {
-                items: 3
-            }
-        }
-    });
-
-    var $filters = $('.filter [data-filter]'),
+    let $filters = $('.filter [data-filter]'),
         $boxes = $('.boxes [data-category]');
 
     $filters.on('click', function (e) {
@@ -163,6 +145,41 @@
                 });
         });
     });
+
+    // Slick Carousel
+    $(document).ready(function () {
+        $('.sponsor-carousel').slick({
+            lazyLoad: 'ondemand',
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: false,
+            pauseOnHover: false,
+            initialSlide: randomFirstSlide(),
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                    }
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
+        });
+    });
+
+    // random function for choosing first carousel slide
+    function randomFirstSlide() {
+        return Math.floor(Math.random() * 6);
+    }
 
     // Initi AOS
     AOS.init({
