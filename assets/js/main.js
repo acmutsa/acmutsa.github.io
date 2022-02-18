@@ -156,6 +156,8 @@
             autoplaySpeed: 2000,
             arrows: false,
             pauseOnHover: false,
+            centerMode: true,
+            variableWidth: true,
             initialSlide: randomFirstSlide(),
             responsive: [
                 {

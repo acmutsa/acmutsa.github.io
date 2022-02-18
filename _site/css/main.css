@@ -2302,7 +2302,10 @@ img { pointer-events: none; }
 
 .center-in-container { display: flex; justify-content: center; align-items: center; }
 
+h3 { display: unset; }
+
 @media (max-width: 992px) { .hidden-on-mobile { display: none; } }
+@media (min-width: 992px) { .hidden-on-desktop { display: none; } }
 /* ---------------------------------- Buttons
 ----------------------------------- */
 button { cursor: pointer; border-width: 1px; border-radius: 5px; font-size: 22px; font-weight: 500; -webkit-box-shadow: 0 10px 20px -6px rgba(0, 0, 0, 0.12); -moz-box-shadow: 0 10px 20px -6px rgba(0, 0, 0, 0.12); box-shadow: 0 10px 20px -6px rgba(0, 0, 0, 0.12); overflow: hidden; position: relative; -moz-transition: all .3s ease; -o-transition: all .3s ease; -webkit-transition: all .3s ease; -ms-transition: all .3s ease; transition: all .3s ease; margin-bottom: 25px; }
@@ -2448,6 +2451,8 @@ section { padding: 60px 0; overflow: hidden; }
 
 #hero .btn-get-started:hover { background: #f15a22; }
 
+.inline-name { display: inline; }
+
 @media (min-width: 1024px) { #hero { background-attachment: fixed; } }
 @media (max-width: 992px) { #hero { margin-top: 60px; height: calc(100vh - 60px); } }
 @media (max-width: 768px) { #hero h1 { font-size: 28px; line-height: 36px; }
@@ -2508,6 +2513,7 @@ section { padding: 60px 0; overflow: hidden; }
 @keyframes slide-down { 0% { opacity: 0; }
   100% { opacity: 1; } }
 @media (max-width: 768px) { .suborgs .nav-link.active, .suborgs .nav-link.active h4, .suborgs .tab-pane.active { box-shadow: 0 0 0; color: #0C2340; background-color: antiquewhite; } }
+@media (max-width: 992px) { .inline-logo { display: inline; margin-bottom: 0.5rem; margin-right: 0.5rem; } }
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -2679,6 +2685,8 @@ section { padding: 60px 0; overflow: hidden; }
 #sponsorship img { width: 465px; }
 
 #sponsorship .image-container { height: 330px; }
+
+.slick-slide { padding: 0 25px 0 25px; }
 
 @media (max-width: 992px) { #sponsorship { height: 100%; }
   #sponsorship img { width: 345px; }
