@@ -29,8 +29,18 @@ img {
   align-items: center;
 }
 
+h3 {
+  display: unset;
+}
+
 @media (max-width: 992px) {
   .hidden-on-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .hidden-on-desktop {
     display: none;
   }
 }
@@ -559,6 +569,10 @@ section {
   background: $primary;
 }
 
+.inline-name {
+  display: inline;
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -739,6 +753,14 @@ section {
     box-shadow: 0 0 0;
     color: $secondary;
     background-color: $offWhite;
+  }
+}
+
+@media (max-width: 992px) {
+  .inline-logo {
+    display: inline;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
   }
 }
 
