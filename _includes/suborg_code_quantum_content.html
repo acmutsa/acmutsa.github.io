@@ -11,34 +11,50 @@
                 </p><br>
                 <h3 data-aos="fade-up">Interested in Participating?</h3>
                 <div data-aos="fade-up">
-                    <form action="http://codequantumutsa.com/">
-                        <button type="submit" class="btn-primary btn-block">
-                            <span>Visit Us</span>
-                            <div class="icon d-flex align-items-center justify-content-center">
-                                <i class="bx bx-world"></i>
-                            </div>
-                        </button>
-                    </form>
-                    <form action="https://drive.google.com/file/d/1ETeao2MnMO9b-wmxt-bGjXHVvrfSSnr3/view?usp=sharing">
-                        <button type="submit" class="btn-primary btn-block">
-                            <span>Sponsorship</span>
-                            <div class="icon d-flex align-items-center justify-content-center">
-                                <i class="bx bx-group"></i>
-                            </div>
-                        </button>
-                    </form>
-                    <form action="{{ site.baseurl }}{% link member_new.html %}">
-                        <button type="submit" class="btn-primary btn-block">
-                            <span>Membership</span>
-                            <div class="icon d-flex align-items-center justify-content-center">
-                                <i class="bx bx-user"></i>
-                            </div>
-                        </button>
-                    </form>
+                    <div class="sub-org-buttons">
+                        <div class="button_cont">
+                            <a class="main-button"
+                               href="http://codequantumutsa.com/"
+                               rel="nofollow noopener noreferrer"
+                               target="_blank"
+                               draggable="false">
+                                <div class="icon-box">
+                                    <i class="bx bx-world"></i>
+                                    <h4>Visit Us</h4>
+                                    <p>and check out our website</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="button_cont">
+                            <a class="main-button"
+                               href="https://drive.google.com/file/d/1ETeao2MnMO9b-wmxt-bGjXHVvrfSSnr3/view?usp=sharing"
+                               target="_blank"
+                               rel="nofollow noopener noreferrer"
+                               draggable="false">
+                                <div class="icon-box">
+                                    <i class="bx bx-group"></i>
+                                    <h4>Sponsorship</h4>
+                                    <p>Check out our packet</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="button_cont">
+                            <a class="main-button"
+                               href="{{ site.baseurl }}{% link member_new.html %}"
+                               rel="nofollow noopener noreferrer"
+                               draggable="false">
+                                <div class="icon-box">
+                                    <i class="bx bx-user"></i>
+                                    <h4>Membership</h4>
+                                    <p>Fill out this form and become a member!</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-xl-6 col-lg-7 align-self-center text-center" data-aos="fade-right">
-                <img src="{{ site.baseurl }}/assets/img/logos/codequantum-logo.png" class="img-fluid" alt="Code Quantum Logo">
+            <div class="col-xl-6 col-lg-7 hidden-on-mobile center-in-container" data-aos="fade-right">
+                <img src="{{ site.baseurl }}/assets/img/logos/cq-logo.png" class="img-fluid" alt="cq logo">
             </div>
         </div>
     </div>
